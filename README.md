@@ -8,89 +8,92 @@ The bug only happens on very rare occasion for the above mentioned website, I'd 
 
 Since the above mentioned website is posting new items multiple times per day and thus the affected pages change, the code contains a method to find bad pages. When a bad page is found, the code will download and parse it thrice, once for each of the affected methods and once with a workaround, which uses `Jsoup::parse` and passes the body of the `HttpConnection.Response` object obtained from `Connection::execute`.
 
+Another curious thing is that if a url is affected or not changes based on whether the url has a trailing slash or not. 
+
 Here is some example output from the program:
 
+    https://rss.packetstormsecurity.com/files/page17/
     Malformed output via Jsoup.connect(url).get():
-    Wed, 07 Jun 2017 14:22:24 GMT
-    Wed, 07 Jun 2017 14:21:31 GMT
-    Wed, 07 Jun 2017 14:19:11 GMT
-    Wed, 07 Jun 2017 14:19:03 GMT
-    Wed, 07 Jun 2017 14:18:54 GMT
-    Wed, 07 Jun 2017 14:18:49 GMT
-    Wed, 07 Jun 2017 14:18:44 GMT
-    Wed, 07 Jun 2017 14:18:38 GMT
-    Wed, 07 Jun 2017 14:18:30 GMT
-    Wed, 07 Jun 2017 14:18:23 GMT
-    Wed, 07 Jun 2017 14:18:17 GMT
-    Wed, 07 Jun 2017 14:18:12 GMT
-    Wed, 07 Jun 2017 14:15:55 GMT
-    Wed, 07 Jun 2017 13:47:58 GMT
-    Wed, 07 Jun 2017 10:11:11 GMT
-    Tue, 06 Jun 2017 23:26:00 GMT
-    Tue, 06 Jun 2017 23:25:00 GMT
-    Tue, 06 Jun 2017 23:24:00 GMT
-    Tue, 06 Jun 2017 23:23:00 GMT
-    Tue, 06 Jun 2017 14:06:27 GMT</pubDate> Gentoo Linux Security Advisory 201706-5 - Multiple vulnerabilities in D-Bus might allow an attacker to overwrite files with a fixed filename in arbitrary directories or conduct a symlink attack. Versions less than 1.10.18 are affected.
-    Tue, 06 Jun 2017 14:06:16 GMT
-    Tue, 06 Jun 2017 14:06:02 GMT
-    Tue, 06 Jun 2017 14:05:53 GMT
-    Tue, 06 Jun 2017 14:05:45 GMT
-    Tue, 06 Jun 2017 14:05:34 GMT
-
-
+    Sun, 26 Nov 2017 23:23:00 GMT
+    Sat, 25 Nov 2017 15:15:43 GMT
+    Sat, 25 Nov 2017 15:14:07 GMT
+    Sat, 25 Nov 2017 15:12:55 GMT
+    Sat, 25 Nov 2017 15:11:14 GMT
+    Sat, 25 Nov 2017 15:09:49 GMT
+    Sat, 25 Nov 2017 15:07:50 GMT
+    Sat, 25 Nov 2017 15:06:20 GMT
+    Sat, 25 Nov 2017 15:05:18 GMT
+    Sat, 25 Nov 2017 15:02:26 GMT
+    Sat, 25 Nov 2017 14:47:39 GMT
+    Fri, 24 Nov 2017 12:13:00 GMT
+    Fri, 24 Nov 2017 12:12:00 GMT
+    Thu, 23 Nov 2017 12:12:12 GMT
+    Thu, 23 Nov 2017 12:11:11 GMT
+    Thu, 23 Nov 2017 11:11:00 GMT
+    Thu, 23 Nov 2017 10:11:11 GMT
+    Thu, 23 Nov 2017 09:22:22 GMT
+    Wed, 22 Nov 2017 16:11:40 GMT
+    Wed, 22 Nov 2017 15:58:36 GMT
+    Wed, 22 Nov 2017 15:56:50 GMT
+    Wed, 22 Nov 2017 15:55:40 GMT
+    Wed, 22 Nov 2017 15:53:13 GMT</pubDate> WebKit suffers from an out-of-bounds read in WebCore::RenderText::localCaretRect.
+    Wed, 22 Nov 2017 15:50:02 GMT
+    Wed, 22 Nov 2017 15:48:27 GMT
+    
+    
     Malformed output via Jsoup.connect(url).execute().parse():
-    Wed, 07 Jun 2017 14:22:24 GMT
-    Wed, 07 Jun 2017 14:21:31 GMT
-    Wed, 07 Jun 2017 14:19:11 GMT
-    Wed, 07 Jun 2017 14:19:03 GMT
-    Wed, 07 Jun 2017 14:18:54 GMT
-    Wed, 07 Jun 2017 14:18:49 GMT
-    Wed, 07 Jun 2017 14:18:44 GMT
-    Wed, 07 Jun 2017 14:18:38 GMT
-    Wed, 07 Jun 2017 14:18:30 GMT
-    Wed, 07 Jun 2017 14:18:23 GMT
-    Wed, 07 Jun 2017 14:18:17 GMT
-    Wed, 07 Jun 2017 14:18:12 GMT
-    Wed, 07 Jun 2017 14:15:55 GMT
-    Wed, 07 Jun 2017 13:47:58 GMT
-    Wed, 07 Jun 2017 10:11:11 GMT
-    Tue, 06 Jun 2017 23:26:00 GMT
-    Tue, 06 Jun 2017 23:25:00 GMT
-    Tue, 06 Jun 2017 23:24:00 GMT
-    Tue, 06 Jun 2017 23:23:00 GMT
-    Tue, 06 Jun 2017 14:06:27 GMT</pubDate> Gentoo Linux Security Advisory 201706-5 - Multiple vulnerabilities in D-Bus might allow an attacker to overwrite files with a fixed filename in arbitrary directories or conduct a symlink attack. Versions less than 1.10.18 are affected.
-    Tue, 06 Jun 2017 14:06:16 GMT
-    Tue, 06 Jun 2017 14:06:02 GMT
-    Tue, 06 Jun 2017 14:05:53 GMT
-    Tue, 06 Jun 2017 14:05:45 GMT
-    Tue, 06 Jun 2017 14:05:34 GMT
-
-
+    Sun, 26 Nov 2017 23:23:00 GMT
+    Sat, 25 Nov 2017 15:15:43 GMT
+    Sat, 25 Nov 2017 15:14:07 GMT
+    Sat, 25 Nov 2017 15:12:55 GMT
+    Sat, 25 Nov 2017 15:11:14 GMT
+    Sat, 25 Nov 2017 15:09:49 GMT
+    Sat, 25 Nov 2017 15:07:50 GMT
+    Sat, 25 Nov 2017 15:06:20 GMT
+    Sat, 25 Nov 2017 15:05:18 GMT
+    Sat, 25 Nov 2017 15:02:26 GMT
+    Sat, 25 Nov 2017 14:47:39 GMT
+    Fri, 24 Nov 2017 12:13:00 GMT
+    Fri, 24 Nov 2017 12:12:00 GMT
+    Thu, 23 Nov 2017 12:12:12 GMT
+    Thu, 23 Nov 2017 12:11:11 GMT
+    Thu, 23 Nov 2017 11:11:00 GMT
+    Thu, 23 Nov 2017 10:11:11 GMT
+    Thu, 23 Nov 2017 09:22:22 GMT
+    Wed, 22 Nov 2017 16:11:40 GMT
+    Wed, 22 Nov 2017 15:58:36 GMT
+    Wed, 22 Nov 2017 15:56:50 GMT
+    Wed, 22 Nov 2017 15:55:40 GMT
+    Wed, 22 Nov 2017 15:53:13 GMT</pubDate> WebKit suffers from an out-of-bounds read in WebCore::RenderText::localCaretRect.
+    Wed, 22 Nov 2017 15:50:02 GMT
+    Wed, 22 Nov 2017 15:48:27 GMT
+    
+    
     Well-formed output via Jsoup.parse(Jsoup.connect(url).execute().body()):
-    Wed, 07 Jun 2017 14:22:24 GMT
-    Wed, 07 Jun 2017 14:21:31 GMT
-    Wed, 07 Jun 2017 14:19:11 GMT
-    Wed, 07 Jun 2017 14:19:03 GMT
-    Wed, 07 Jun 2017 14:18:54 GMT
-    Wed, 07 Jun 2017 14:18:49 GMT
-    Wed, 07 Jun 2017 14:18:44 GMT
-    Wed, 07 Jun 2017 14:18:38 GMT
-    Wed, 07 Jun 2017 14:18:30 GMT
-    Wed, 07 Jun 2017 14:18:23 GMT
-    Wed, 07 Jun 2017 14:18:17 GMT
-    Wed, 07 Jun 2017 14:18:12 GMT
-    Wed, 07 Jun 2017 14:15:55 GMT
-    Wed, 07 Jun 2017 13:47:58 GMT
-    Wed, 07 Jun 2017 10:11:11 GMT
-    Tue, 06 Jun 2017 23:26:00 GMT
-    Tue, 06 Jun 2017 23:25:00 GMT
-    Tue, 06 Jun 2017 23:24:00 GMT
-    Tue, 06 Jun 2017 23:23:00 GMT
-    Tue, 06 Jun 2017 14:06:27 GMT
-    Tue, 06 Jun 2017 14:06:16 GMT
-    Tue, 06 Jun 2017 14:06:02 GMT
-    Tue, 06 Jun 2017 14:05:53 GMT
-    Tue, 06 Jun 2017 14:05:45 GMT
-    Tue, 06 Jun 2017 14:05:34 GMT
+    Sun, 26 Nov 2017 23:23:00 GMT
+    Sat, 25 Nov 2017 15:15:43 GMT
+    Sat, 25 Nov 2017 15:14:07 GMT
+    Sat, 25 Nov 2017 15:12:55 GMT
+    Sat, 25 Nov 2017 15:11:14 GMT
+    Sat, 25 Nov 2017 15:09:49 GMT
+    Sat, 25 Nov 2017 15:07:50 GMT
+    Sat, 25 Nov 2017 15:06:20 GMT
+    Sat, 25 Nov 2017 15:05:18 GMT
+    Sat, 25 Nov 2017 15:02:26 GMT
+    Sat, 25 Nov 2017 14:47:39 GMT
+    Fri, 24 Nov 2017 12:13:00 GMT
+    Fri, 24 Nov 2017 12:12:00 GMT
+    Thu, 23 Nov 2017 12:12:12 GMT
+    Thu, 23 Nov 2017 12:11:11 GMT
+    Thu, 23 Nov 2017 11:11:00 GMT
+    Thu, 23 Nov 2017 10:11:11 GMT
+    Thu, 23 Nov 2017 09:22:22 GMT
+    Wed, 22 Nov 2017 16:11:40 GMT
+    Wed, 22 Nov 2017 15:58:36 GMT
+    Wed, 22 Nov 2017 15:56:50 GMT
+    Wed, 22 Nov 2017 15:55:40 GMT
+    Wed, 22 Nov 2017 15:53:13 GMT
+    Wed, 22 Nov 2017 15:50:02 GMT
+    Wed, 22 Nov 2017 15:48:27 GMT
     
 Tested on Jsoup 1.11.2
