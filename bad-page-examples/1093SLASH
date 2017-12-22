@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Files &#8776; Packet Storm</title>
+  <description>Packet Storm - Information Security Services, News, Files, Tools, Exploits, Advisories and Whitepapers</description>
+  <link>https://packetstormsecurity.com/</link>
+  <language>en-us</language>
+  <lastBuildDate>Fri, 22 Dec 2017 02:53:57 GMT</lastBuildDate>
+
+  <image>
+    <title>Packet Storm</title>
+    <width>144</width><height>400</height>
+    <link>https://packetstormsecurity.com/</link>
+    <url>https://ssl.google-analytics.com/__utm.gif?utmwv=1.3&amp;utmn=1637835488&amp;utmcs=ISO-8859-1&amp;utmsr=31337x31337&amp;utmsc=32-bit&amp;utmul=en-us&amp;utmje=0&amp;utmfl=-&amp;utmcn=1&amp;utmdt=Files%u2248%20Packet%20Storm&amp;utmhn=packetstormsecurity.com&amp;utmr=-&amp;utmp=%2Ffiles%2Fpage1093%2F&amp;utmac=UA-18885198-1&amp;utmcc=__utma%3D32867617.1637835488.1513911237.1513911237.1513911237.1%3B%2B__utmz%3D32867617.1513911237.1.1.utmccn%3D(direct)%7Cutmcsr%3D(direct)%7Cutmcmd%3D(none)</url>
+  </image>
+ 
+<item>
+<title>IBM Java Security Vulnerabilities</title>
+<link>https://packetstormsecurity.com/files/116430/SE-2012-01-IBM.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116430/SE-2012-01-IBM.txt</guid>
+<comments>https://packetstormsecurity.com/files/116430/IBM-Java-Security-Vulnerabilities.html</comments>
+<pubDate>Tue, 11 Sep 2012 20:08:39 GMT</pubDate>
+<description>Security Explorations discovered multiple security vulnerabilities in IBM SDK, Java Technology Edition software. This is IBM&#39;s implementation of Java SE technology for AIX, Linux, z/OS and IBMi platforms. Among a total of 17 security weaknesses found, there are issues that can lead to the complete compromise of a target IBM Java environment.</description>
+<category></category>
+</item>
+<item>
+<title>Red Hat Security Advisory 2012-1255-01</title>
+<link>https://packetstormsecurity.com/files/116429/RHSA-2012-1255-01.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116429/RHSA-2012-1255-01.txt</guid>
+<comments>https://packetstormsecurity.com/files/116429/Red-Hat-Security-Advisory-2012-1255-01.html</comments>
+<pubDate>Tue, 11 Sep 2012 20:02:11 GMT</pubDate>
+<description>Red Hat Security Advisory 2012-1255-01 - The libexif packages provide an Exchangeable image file format library. Exif allows metadata to be added to and read from certain types of image files. Multiple flaws were found in the way libexif processed Exif tags. An attacker could create a specially-crafted image file that, when opened in an application linked against libexif, could cause the application to crash or, potentially, execute arbitrary code with the privileges of the user running the application. </description>
+<category></category>
+</item>
+<item>
+<title>Red Hat Security Advisory 2012-1256-01</title>
+<link>https://packetstormsecurity.com/files/116428/RHSA-2012-1256-01.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116428/RHSA-2012-1256-01.txt</guid>
+<comments>https://packetstormsecurity.com/files/116428/Red-Hat-Security-Advisory-2012-1256-01.html</comments>
+<pubDate>Tue, 11 Sep 2012 20:01:51 GMT</pubDate>
+<description>Red Hat Security Advisory 2012-1256-01 - Ghostscript is a set of software that provides a PostScript interpreter, a set of C procedures and an interpreter for Portable Document Format files. An integer overflow flaw, leading to a heap-based buffer overflow, was found in Ghostscript&#39;s International Color Consortium Format library. An attacker could create a specially-crafted PostScript or PDF file with embedded images that would cause Ghostscript to crash or, potentially, execute arbitrary code with the privileges of the user running Ghostscript. </description>
+<category></category>
+</item>
+<item>
+<title>Ubuntu Security Notice USN-1548-2</title>
+<link>https://packetstormsecurity.com/files/116424/USN-1548-2.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116424/USN-1548-2.txt</guid>
+<comments>https://packetstormsecurity.com/files/116424/Ubuntu-Security-Notice-USN-1548-2.html</comments>
+<pubDate>Tue, 11 Sep 2012 19:59:50 GMT</pubDate>
+<description>Ubuntu Security Notice 1548-2 - USN-1548-1 fixed vulnerabilities in Firefox. The new package caused a regression in Private Browsing which could leak sites visited to the browser cache. This update fixes the problem. Gary Kwong, Christian Holler, Jesse Ruderman, Steve Fink, Bob Clary, Andrew Sutherland, Jason Smith, John Schoenick, Vladimir Vukicevic and Daniel Holbert discovered memory safety issues affecting Firefox. If the user were tricked into opening a specially crafted page, an attacker could possibly exploit these to cause a denial of service via application crash, or potentially execute code with the privileges of the user invoking Firefox. Abhishek Arya discovered multiple use-after-free vulnerabilities. If the user were tricked into opening a specially crafted page, an attacker could exploit these to cause a denial of service via application crash, or potentially execute code with the privileges of the user invoking Firefox. Various other issues were also addressed.</description>
+<category></category>
+</item>
+<item>
+<title>Ezylog Photovoltaic Management SQL Injection / Command Injection</title>
+<link>https://packetstormsecurity.com/files/116423/ezylogphotovoltaic-sqlexec.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116423/ezylogphotovoltaic-sqlexec.txt</guid>
+<comments>https://packetstormsecurity.com/files/116423/Ezylog-Photovoltaic-Management-SQL-Injection-Command-Injection.html</comments>
+<pubDate>Tue, 11 Sep 2012 19:56:38 GMT</pubDate>
+<description>Ezylog Photovoltaic Management Server suffers from remote SQL injection, broken session management, hard-coded credential, and command injection vulnerabilities. The vendor has ignored the researcher.</description>
+<category></category>
+</item>
+<item>
+<title>SiteGo Remote File Inclusion</title>
+<link>https://packetstormsecurity.com/files/116412/sitego-rfi.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116412/sitego-rfi.txt</guid>
+<comments>https://packetstormsecurity.com/files/116412/SiteGo-Remote-File-Inclusion.html</comments>
+<pubDate>Tue, 11 Sep 2012 16:22:44 GMT</pubDate>
+<description>SiteGo suffers from a remote file inclusion vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Wordpress Download Monitor 3.3.5.7 Cross Site Scripting</title>
+<link>https://packetstormsecurity.com/files/116408/wpdownloadmonitor3357-xss.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116408/wpdownloadmonitor3357-xss.txt</guid>
+<comments>https://packetstormsecurity.com/files/116408/Wordpress-Download-Monitor-3.3.5.7-Cross-Site-Scripting.html</comments>
+<pubDate>Tue, 11 Sep 2012 16:06:36 GMT</pubDate>
+<description>Wordpress Download Monitor version 3.3.5.7 suffers from a cross site scripting vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>RSA BSAFE Micro Edition Suite Security Update for BEAST Attacks</title>
+<link>https://packetstormsecurity.com/files/116406/ESA-2012-032.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116406/ESA-2012-032.txt</guid>
+<comments>https://packetstormsecurity.com/files/116406/RSA-BSAFE-Micro-Edition-Suite-Security-Update-for-BEAST-Attacks.html</comments>
+<pubDate>Tue, 11 Sep 2012 16:00:16 GMT</pubDate>
+<description>RSA BSAFE Micro Edition Suite contains updates designed to prevent BEAST attacks. There is a known vulnerability in SSLv3 and TLS v1.0 to do with how the Initialization Vector (IV) is generated. For symmetric key algorithms in CBC mode, the IV for the first record is generated using keys and secrets set during the SSL or TLS handshake. All subsequent records are encrypted using the ciphertext block from the previous record as the IV. With symmetric key encryption in CBC mode, plain text encrypted with the same IV and key generates the same cipher text, which is why having a variable IV is important. The BEAST exploit uses this SSLv3 and TLS v1.0 vulnerability by allowing an attacker to observe the last ciphertext block, which is the IV, then replace this with an IV of their choice, inject some of their own plain text data, and when this new IV is used to encrypt the data, the attacker can guess the plain text data one byte at a time.</description>
+<category></category>
+</item>
+<item>
+<title>Openfiler 2.x NetworkCard Command Execution</title>
+<link>https://packetstormsecurity.com/files/116405/openfiler_networkcard_exec.rb.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116405/openfiler_networkcard_exec.rb.txt</guid>
+<comments>https://packetstormsecurity.com/files/116405/Openfiler-2.x-NetworkCard-Command-Execution.html</comments>
+<pubDate>Tue, 11 Sep 2012 15:24:35 GMT</pubDate>
+<description>This Metasploit module exploits a vulnerability in Openfiler version 2.x which could be abused to allow authenticated users to execute arbitrary code under the context of the &#39;openfiler&#39; user. The &#39;system.html&#39; file uses user controlled data from the &#39;device&#39; parameter to create a new &#39;NetworkCard&#39; object. The class constructor in &#39;network.inc&#39; calls exec() with the supplied data. The &#39;openfiler&#39; user may &#39;sudo /bin/bash&#39; without providing a system password.</description>
+<category></category>
+</item>
+<item>
+<title>WAN Emulator 2.3 Command Execution</title>
+<link>https://packetstormsecurity.com/files/116404/wanem_exec.rb.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116404/wanem_exec.rb.txt</guid>
+<comments>https://packetstormsecurity.com/files/116404/WAN-Emulator-2.3-Command-Execution.html</comments>
+<pubDate>Tue, 11 Sep 2012 15:22:32 GMT</pubDate>
+<description>This Metasploit module exploits a command execution vulnerability in WAN Emulator version 2.3 which can be abused to allow unauthenticated users to execute arbitrary commands under the context of the &#39;www-data&#39; user. The &#39;result.php&#39; script calls shell_exec() with user controlled data from the &#39;pc&#39; parameter. This Metasploit module also exploits a command execution vulnerability to gain root privileges. The &#39;dosu&#39; binary is suid &#39;root&#39; and vulnerable to command execution in argument one.</description>
+<category></category>
+</item>
+<item>
+<title>Winamp MAKI Buffer Overflow</title>
+<link>https://packetstormsecurity.com/files/116403/winamp_maki_bof.rb.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116403/winamp_maki_bof.rb.txt</guid>
+<comments>https://packetstormsecurity.com/files/116403/Winamp-MAKI-Buffer-Overflow.html</comments>
+<pubDate>Tue, 11 Sep 2012 15:22:06 GMT</pubDate>
+<description>This Metasploit module exploits a stack based buffer overflow in Winamp 5.55. The flaw exists in the gen_ff.dll and occurs while parsing a specially crafted MAKI file, where memmove is used with in a insecure way with user controlled data. To exploit the vulnerability the attacker must convince the attacker to install the generated mcvcore.maki file in the &quot;scripts&quot; directory of the default &quot;Bento&quot; skin, or generate a new skin using the crafted mcvcore.maki file. The module has been tested successfully on Windows XP SP3 and Windows 7 SP1.</description>
+<category></category>
+</item>
+<item>
+<title>ANTEMENE SQL Injection</title>
+<link>https://packetstormsecurity.com/files/116452/antemene-sql.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116452/antemene-sql.txt</guid>
+<comments>https://packetstormsecurity.com/files/116452/ANTEMENE-SQL-Injection.html</comments>
+<pubDate>Tue, 11 Sep 2012 10:33:33 GMT</pubDate>
+<description>ANTEMENE suffers from a remote SQL injection vulnerability. Note that this finding houses site-specific data.</description>
+<category></category>
+</item>
+<item>
+<title>FBDj Stats SQL Injection</title>
+<link>https://packetstormsecurity.com/files/116451/fbdjstats-sql.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116451/fbdjstats-sql.txt</guid>
+<comments>https://packetstormsecurity.com/files/116451/FBDj-Stats-SQL-Injection.html</comments>
+<pubDate>Tue, 11 Sep 2012 10:11:11 GMT</pubDate>
+<description>FBDj Stats suffers from a remote SQL injection vulnerability. Note that this finding houses site-specific data.</description>
+<category></category>
+</item>
+<item>
+<title>Mandriva Linux Security Advisory 2012-150</title>
+<link>https://packetstormsecurity.com/files/116402/MDVSA-2012-150.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116402/MDVSA-2012-150.txt</guid>
+<comments>https://packetstormsecurity.com/files/116402/Mandriva-Linux-Security-Advisory-2012-150.html</comments>
+<pubDate>Tue, 11 Sep 2012 05:52:05 GMT</pubDate>
+<description>Mandriva Linux Security Advisory 2012-150 - Multiple security issues were identified and fixed in OpenJDK (icedtea6). Unspecified vulnerability in the Java Runtime Environment component in Oracle Java SE 7 Update 6 and earlier, and 6 Update 34 and earlier, has no impact and remote attack vectors involving AWT and a security-in-depth issue that is not directly exploitable but which can be used to aggravate security vulnerabilities that can be directly exploited. Unspecified vulnerability in the Java Runtime Environment component in Oracle Java SE 7 Update 6 and earlier allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Beans, a different vulnerability than CVE-2012-3136. The updated packages provides icedtea6-1.11.4 which is not vulnerable to these issues.</description>
+<category></category>
+</item>
+<item>
+<title>MachForm Remote Shell Upload</title>
+<link>https://packetstormsecurity.com/files/116432/machform-shell.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116432/machform-shell.txt</guid>
+<comments>https://packetstormsecurity.com/files/116432/MachForm-Remote-Shell-Upload.html</comments>
+<pubDate>Tue, 11 Sep 2012 03:33:33 GMT</pubDate>
+<description>MachForm suffers form a remote shell upload vulnerability. Note that this finding houses site-specific data.</description>
+<category></category>
+</item>
+<item>
+<title>Ubuntu Security Notice USN-1563-1</title>
+<link>https://packetstormsecurity.com/files/116391/USN-1563-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116391/USN-1563-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/116391/Ubuntu-Security-Notice-USN-1563-1.html</comments>
+<pubDate>Tue, 11 Sep 2012 02:38:10 GMT</pubDate>
+<description>Ubuntu Security Notice 1563-1 - A flaw was found in the Linux kernel&#39;s Reliable Datagram Sockets (RDS) protocol implementation. A local, unprivileged user could use this flaw to cause a denial of service.</description>
+<category></category>
+</item>
+<item>
+<title>Ubuntu Security Notice USN-1562-1</title>
+<link>https://packetstormsecurity.com/files/116390/USN-1562-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116390/USN-1562-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/116390/Ubuntu-Security-Notice-USN-1562-1.html</comments>
+<pubDate>Tue, 11 Sep 2012 02:37:52 GMT</pubDate>
+<description>Ubuntu Security Notice 1562-1 - Some errors where discovered in the Linux kernel&#39;s UDF file system, which is used to mount some CD-ROMs and DVDs. An unprivileged local user could use these flaws to crash the system.</description>
+<category></category>
+</item>
+<item>
+<title>Ubuntu Security Notice USN-1527-2</title>
+<link>https://packetstormsecurity.com/files/116389/USN-1527-2.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116389/USN-1527-2.txt</guid>
+<comments>https://packetstormsecurity.com/files/116389/Ubuntu-Security-Notice-USN-1527-2.html</comments>
+<pubDate>Tue, 11 Sep 2012 02:37:29 GMT</pubDate>
+<description>Ubuntu Security Notice 1527-2 - USN-1527-1 fixed vulnerabilities in Expat. This update provides the corresponding updates for XML-RPC for C and C++. Both issues described in the original advisory affected XML-RPC for C and C++ in Ubuntu 10.04 LTS, 11.04, 11.10 and 12.04 LTS. It was discovered that Expat computed hash values without restricting the ability to trigger hash collisions predictably. If a user or application linked against Expat were tricked into opening a crafted XML file, an attacker could cause a denial of service by consuming excessive CPU resources. Tim Boddy discovered that Expat did not properly handle memory reallocation when processing XML files. If a user or application linked against Expat were tricked into opening a crafted XML file, an attacker could cause a denial of service by consuming excessive memory resources. This issue only affected Ubuntu 8.04 LTS, 10.04 LTS, 11.04 and 11.10. Various other issues were also addressed.</description>
+<category></category>
+</item>
+<item>
+<title>BSidesPDX 2012 Call For Papers</title>
+<link>https://packetstormsecurity.com/files/116422/bsidespdx-cfp.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116422/bsidespdx-cfp.txt</guid>
+<comments>https://packetstormsecurity.com/files/116422/BSidesPDX-2012-Call-For-Papers.html</comments>
+<pubDate>Mon, 10 Sep 2012 23:47:22 GMT</pubDate>
+<description>The BSidesPDX 2012 Call For Papers has been announced. It will take place in Portland, Oregon November 9th through the 10th, 2012.</description>
+<category></category>
+</item>
+<item>
+<title>Akcms 4.2.4 Information Disclosure</title>
+<link>https://packetstormsecurity.com/files/116421/akcms-disclose.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116421/akcms-disclose.txt</guid>
+<comments>https://packetstormsecurity.com/files/116421/Akcms-4.2.4-Information-Disclosure.html</comments>
+<pubDate>Mon, 10 Sep 2012 23:22:22 GMT</pubDate>
+<description>Akcms version 4.2.4 suffers from an information disclosure vulnerability due to the installation log with credentials being left accessible in the webroot.</description>
+<category></category>
+</item>
+<item>
+<title>PersianTools SQL Injection / Shell Upload</title>
+<link>https://packetstormsecurity.com/files/116395/persiantools-sqlshell.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116395/persiantools-sqlshell.txt</guid>
+<comments>https://packetstormsecurity.com/files/116395/PersianTools-SQL-Injection-Shell-Upload.html</comments>
+<pubDate>Mon, 10 Sep 2012 18:22:22 GMT</pubDate>
+<description>PersianTools suffers from remote shell upload and remote SQL injection vulnerabilities.</description>
+<category></category>
+</item>
+<item>
+<title>VICIDIAL Call Center Suite 2.2.1-237 SQL Injection / Cross Site Scripting</title>
+<link>https://packetstormsecurity.com/files/116394/vicidial-sqlxss.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116394/vicidial-sqlxss.txt</guid>
+<comments>https://packetstormsecurity.com/files/116394/VICIDIAL-Call-Center-Suite-2.2.1-237-SQL-Injection-Cross-Site-Scripting.html</comments>
+<pubDate>Mon, 10 Sep 2012 17:22:22 GMT</pubDate>
+<description>VICIDIAL Call Center Suite versions 2.2.1-237 and below suffer from cross site scripting, HTTP parameter pollution, and remote SQL injection vulnerabilities.</description>
+<category></category>
+</item>
+<item>
+<title>FreeRADIUS 2.1.12 Remote Code Execution</title>
+<link>https://packetstormsecurity.com/files/116420/PRE-SA-2012-06.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116420/PRE-SA-2012-06.txt</guid>
+<comments>https://packetstormsecurity.com/files/116420/FreeRADIUS-2.1.12-Remote-Code-Execution.html</comments>
+<pubDate>Mon, 10 Sep 2012 15:22:22 GMT</pubDate>
+<description>PRE-CERT Security Advisory - A stack overflow vulnerability has been identified in FreeRADIUS that allows to remotely execute arbitrary code via specially crafted client certificates (before authentication). The vulnerability affects setups using TLS-based EAP methods (including EAP-TLS, EAP-TTLS, and PEAP).</description>
+<category></category>
+</item>
+<item>
+<title>Joomla RokModule Blind SQL Injection</title>
+<link>https://packetstormsecurity.com/files/116393/joomlarokmodule-sql.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116393/joomlarokmodule-sql.txt</guid>
+<comments>https://packetstormsecurity.com/files/116393/Joomla-RokModule-Blind-SQL-Injection.html</comments>
+<pubDate>Mon, 10 Sep 2012 14:44:44 GMT</pubDate>
+<description>Joomla RokModule component suffers from a remote blind SQL injection vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Ubuntu Security Notice USN-1561-1</title>
+<link>https://packetstormsecurity.com/files/116361/USN-1561-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/116361/USN-1561-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/116361/Ubuntu-Security-Notice-USN-1561-1.html</comments>
+<pubDate>Mon, 10 Sep 2012 14:31:11 GMT</pubDate>
+<description>Ubuntu Security Notice 1561-1 - Paul Mutton discovered that ubiquity-slideshow-ubuntu incorrectly handled the Twitter feed displayed during system installation. A remote attacker could use this flaw to inject code into the Twitter feed and read arbitrary files off the filesystem during system installation. This flaw has been resolved in the Ubuntu 12.04.1 LTS installation images by disabling the Twitter feed.</description>
+<category></category>
+</item>
+
+
+</channel>
+</rss>
+

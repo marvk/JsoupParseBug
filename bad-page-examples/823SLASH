@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Files &#8776; Packet Storm</title>
+  <description>Packet Storm - Information Security Services, News, Files, Tools, Exploits, Advisories and Whitepapers</description>
+  <link>https://packetstormsecurity.com/</link>
+  <language>en-us</language>
+  <lastBuildDate>Fri, 22 Dec 2017 02:52:12 GMT</lastBuildDate>
+
+  <image>
+    <title>Packet Storm</title>
+    <width>144</width><height>400</height>
+    <link>https://packetstormsecurity.com/</link>
+    <url>https://ssl.google-analytics.com/__utm.gif?utmwv=1.3&amp;utmn=1561046338&amp;utmcs=ISO-8859-1&amp;utmsr=31337x31337&amp;utmsc=32-bit&amp;utmul=en-us&amp;utmje=0&amp;utmfl=-&amp;utmcn=1&amp;utmdt=Files%u2248%20Packet%20Storm&amp;utmhn=packetstormsecurity.com&amp;utmr=-&amp;utmp=%2Ffiles%2Fpage823%2F&amp;utmac=UA-18885198-1&amp;utmcc=__utma%3D32867617.1561046338.1513911132.1513911132.1513911132.1%3B%2B__utmz%3D32867617.1513911132.1.1.utmccn%3D(direct)%7Cutmcsr%3D(direct)%7Cutmcmd%3D(none)</url>
+  </image>
+ 
+<item>
+<title>Ubuntu Security Notice USN-2085-1</title>
+<link>https://packetstormsecurity.com/files/124869/USN-2085-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124869/USN-2085-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/124869/Ubuntu-Security-Notice-USN-2085-1.html</comments>
+<pubDate>Tue, 21 Jan 2014 19:11:00 GMT</pubDate>
+<description>Ubuntu Security Notice 2085-1 - It was discovered that the HPLIP Polkit daemon incorrectly handled temporary files. A local attacker could possibly use this issue to overwrite arbitrary files. In the default installation of Ubuntu 12.04 LTS and higher, this should be prevented by the Yama link restrictions. It was discovered that HPLIP contained an upgrade tool that would download code in an unsafe fashion. If a remote attacker were able to perform a man-in-the-middle attack, this flaw could be exploited to execute arbitrary code. Various other issues were also addressed.</description>
+<category></category>
+</item>
+<item>
+<title>Gentoo Linux Security Advisory 201401-17</title>
+<link>https://packetstormsecurity.com/files/124868/glsa-201401-17.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124868/glsa-201401-17.txt</guid>
+<comments>https://packetstormsecurity.com/files/124868/Gentoo-Linux-Security-Advisory-201401-17.html</comments>
+<pubDate>Tue, 21 Jan 2014 18:02:00 GMT</pubDate>
+<description>Gentoo Linux Security Advisory 201401-17 - A vulnerability in PCSC-Lite could result in execution of arbitrary code or Denial of Service. Versions less than 1.6.6 are affected.</description>
+<category></category>
+</item>
+<item>
+<title>Gentoo Linux Security Advisory 201401-16</title>
+<link>https://packetstormsecurity.com/files/124867/glsa-201401-16.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124867/glsa-201401-16.txt</guid>
+<comments>https://packetstormsecurity.com/files/124867/Gentoo-Linux-Security-Advisory-201401-16.html</comments>
+<pubDate>Tue, 21 Jan 2014 18:01:00 GMT</pubDate>
+<description>Gentoo Linux Security Advisory 201401-16 - A vulnerability in CCID could result in execution of arbitrary code. Versions less than 1.4.1-r1 are affected.</description>
+<category></category>
+</item>
+<item>
+<title>Imageview 6.x Shell Upload</title>
+<link>https://packetstormsecurity.com/files/124865/imageview6-shell.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124865/imageview6-shell.txt</guid>
+<comments>https://packetstormsecurity.com/files/124865/Imageview-6.x-Shell-Upload.html</comments>
+<pubDate>Tue, 21 Jan 2014 09:22:22 GMT</pubDate>
+<description>Imageview version 6.x suffers from a remote shell upload vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>HP Data Protector Backup Client Service Directory Traversal</title>
+<link>https://packetstormsecurity.com/files/124862/hp_dataprotector_traversal.rb.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124862/hp_dataprotector_traversal.rb.txt</guid>
+<comments>https://packetstormsecurity.com/files/124862/HP-Data-Protector-Backup-Client-Service-Directory-Traversal.html</comments>
+<pubDate>Tue, 21 Jan 2014 02:42:43 GMT</pubDate>
+<description>This Metasploit module exploits a directory traversal vulnerability in the Hewlett-Packard Data Protector product. The vulnerability exists at the Backup Client Service (OmniInet.exe) when parsing packets with opcode 42. This Metasploit module has been tested successfully on HP Data Protector 6.20 on Windows 2003 SP2 and Windows XP SP3.</description>
+<category></category>
+</item>
+<item>
+<title>Debian Security Advisory 2847-1</title>
+<link>https://packetstormsecurity.com/files/124861/dsa-2847-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124861/dsa-2847-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/124861/Debian-Security-Advisory-2847-1.html</comments>
+<pubDate>Tue, 21 Jan 2014 02:27:52 GMT</pubDate>
+<description>Debian Linux Security Advisory 2847-1 - Multiple vulnerabilities have been discovered in Drupal, a fully-featured content management framework.</description>
+<category></category>
+</item>
+<item>
+<title>MuPDF 1.3 Buffer Overflow</title>
+<link>https://packetstormsecurity.com/files/124859/mupdf13-overflow.tgz</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124859/mupdf13-overflow.tgz</guid>
+<comments>https://packetstormsecurity.com/files/124859/MuPDF-1.3-Buffer-Overflow.html</comments>
+<pubDate>Tue, 21 Jan 2014 01:27:37 GMT</pubDate>
+<description>MuPDF versions 1.3 and below suffer from a stack-based buffer overflow in xps_parse_color(). Proof of concept file included.</description>
+<category></category>
+</item>
+<item>
+<title>Hackito Ergo Sum 2014 Call For Papers</title>
+<link>https://packetstormsecurity.com/files/124852/HES2014-CFP.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124852/HES2014-CFP.txt</guid>
+<comments>https://packetstormsecurity.com/files/124852/Hackito-Ergo-Sum-2014-Call-For-Papers.html</comments>
+<pubDate>Mon, 20 Jan 2014 22:22:22 GMT</pubDate>
+<description>The Hackito Ergo Sum 2014 Call For Papers has been announced. It will be held from April 24th through the 26th, 2014 in Paris France.</description>
+<category></category>
+</item>
+<item>
+<title>Gentoo Linux Security Advisory 201401-11</title>
+<link>https://packetstormsecurity.com/files/124847/glsa-201401-11.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124847/glsa-201401-11.txt</guid>
+<comments>https://packetstormsecurity.com/files/124847/Gentoo-Linux-Security-Advisory-201401-11.html</comments>
+<pubDate>Mon, 20 Jan 2014 20:23:31 GMT</pubDate>
+<description>Gentoo Linux Security Advisory 201401-11 - Multiple vulnerabilities have been found in Perl and Locale::Maketext Perl module, the worst of which could allow a context-dependent attacker to execute arbitrary code. Versions less than 5.16.3 are affected.</description>
+<category></category>
+</item>
+<item>
+<title>Gentoo Linux Security Advisory 201401-10</title>
+<link>https://packetstormsecurity.com/files/124846/glsa-201401-10.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124846/glsa-201401-10.txt</guid>
+<comments>https://packetstormsecurity.com/files/124846/Gentoo-Linux-Security-Advisory-201401-10.html</comments>
+<pubDate>Mon, 20 Jan 2014 20:23:23 GMT</pubDate>
+<description>Gentoo Linux Security Advisory 201401-10 - Multiple vulnerabilities have been found in libexif and exif, some of which may allow execution of arbitrary code. Versions less than 0.6.21 are affected.</description>
+<category></category>
+</item>
+<item>
+<title>Gentoo Linux Security Advisory 201401-09</title>
+<link>https://packetstormsecurity.com/files/124845/glsa-201401-09.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124845/glsa-201401-09.txt</guid>
+<comments>https://packetstormsecurity.com/files/124845/Gentoo-Linux-Security-Advisory-201401-09.html</comments>
+<pubDate>Mon, 20 Jan 2014 20:23:02 GMT</pubDate>
+<description>Gentoo Linux Security Advisory 201401-9 - A vulnerability in Openswan could result in execution of arbitrary code or Denial of Service. Versions less than 2.6.39 are affected.</description>
+<category></category>
+</item>
+<item>
+<title>Red Hat Security Advisory 2014-0045-01</title>
+<link>https://packetstormsecurity.com/files/124844/RHSA-2014-0045-01.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124844/RHSA-2014-0045-01.txt</guid>
+<comments>https://packetstormsecurity.com/files/124844/Red-Hat-Security-Advisory-2014-0045-01.html</comments>
+<pubDate>Mon, 20 Jan 2014 20:22:49 GMT</pubDate>
+<description>Red Hat Security Advisory 2014-0045-01 - Red Hat JBoss Web Framework Kit combines popular open source web frameworks into a single solution for Java applications. The JBoss Seam Remoting component provides a convenient method of remotely accessing Seam components from a web page, using AJAX. It was found that the ExecutionHandler, PollHandler, and SubscriptionHandler classes in JBoss Seam Remoting unmarshalled user-supplied XML and resolved external entities in this XML. A remote attacker could use this flaw to read files accessible to the user running the application server, and potentially perform other more advanced XML External Entity attacks. </description>
+<category></category>
+</item>
+<item>
+<title>Red Hat Security Advisory 2014-0044-01</title>
+<link>https://packetstormsecurity.com/files/124843/RHSA-2014-0044-01.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124843/RHSA-2014-0044-01.txt</guid>
+<comments>https://packetstormsecurity.com/files/124843/Red-Hat-Security-Advisory-2014-0044-01.html</comments>
+<pubDate>Mon, 20 Jan 2014 20:22:36 GMT</pubDate>
+<description>Red Hat Security Advisory 2014-0044-01 - Augeas is a utility for editing configuration. Augeas parses configuration files in their native formats and transforms them into a tree. Configuration changes are made by manipulating this tree and saving it back into native configuration files. Augeas also uses &quot;lenses&quot; as basic building blocks for establishing the mapping from files into the Augeas tree and back. A flaw was found in the way Augeas handled certain umask settings when creating new configuration files. This flaw could result in configuration files being created as world writable, allowing unprivileged local users to modify their content. </description>
+<category></category>
+</item>
+<item>
+<title>Red Hat Security Advisory 2014-0043-01</title>
+<link>https://packetstormsecurity.com/files/124842/RHSA-2014-0043-01.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124842/RHSA-2014-0043-01.txt</guid>
+<comments>https://packetstormsecurity.com/files/124842/Red-Hat-Security-Advisory-2014-0043-01.html</comments>
+<pubDate>Mon, 20 Jan 2014 20:22:17 GMT</pubDate>
+<description>Red Hat Security Advisory 2014-0043-01 - The Berkeley Internet Name Domain is an implementation of the Domain Name System protocols. BIND includes a DNS server ; a resolver library ; and tools for verifying that the DNS server is operating correctly. A denial of service flaw was found in the way BIND handled queries for NSEC3-signed zones. A remote attacker could use this flaw against an authoritative name server that served NCES3-signed zones by sending a specially crafted query, which, when processed, would cause named to crash. </description>
+<category></category>
+</item>
+<item>
+<title>Mandriva Linux Security Advisory 2014-012</title>
+<link>https://packetstormsecurity.com/files/124841/MDVSA-2014-012.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124841/MDVSA-2014-012.txt</guid>
+<comments>https://packetstormsecurity.com/files/124841/Mandriva-Linux-Security-Advisory-2014-012.html</comments>
+<pubDate>Mon, 20 Jan 2014 20:21:58 GMT</pubDate>
+<description>Mandriva Linux Security Advisory 2014-012 - The ssl_Do1stHandshake function in sslsecur.c in libssl in Mozilla Network Security Services before 3.15.4, when the TLS False Start feature is enabled, allows man-in-the-middle attackers to spoof SSL servers by using an arbitrary X.509 certificate during certain handshake traffic. The updated packages have been upgraded to the 3.15.4 version which is not vulnerable to this issue.</description>
+<category></category>
+</item>
+<item>
+<title>Mandriva Linux Security Advisory 2014-011</title>
+<link>https://packetstormsecurity.com/files/124840/MDVSA-2014-011.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124840/MDVSA-2014-011.txt</guid>
+<comments>https://packetstormsecurity.com/files/124840/Mandriva-Linux-Security-Advisory-2014-011.html</comments>
+<pubDate>Mon, 20 Jan 2014 20:21:00 GMT</pubDate>
+<description>Mandriva Linux Security Advisory 2014-011 - Multiple vulnerabilities has been discovered and corrected in java-1.7.0-openjdk. An input validation flaw was discovered in the font layout engine in the 2D component. A specially crafted font file could trigger Java Virtual Machine memory corruption when processed. An untrusted Java application or applet could possibly use this flaw to bypass Java sandbox restrictions. Multiple improper permission check issues were discovered in the CORBA, JNDI, and Libraries components in OpenJDK. An untrusted Java application or applet could use these flaws to bypass Java sandbox restrictions. Multiple improper permission check issues were discovered in the Serviceability, Security, CORBA, JAAS, JAXP, and Networking components in OpenJDK. An untrusted Java application or applet could use these flaws to bypass certain Java sandbox restrictions. It was discovered that the Beans component did not restrict processing of XML external entities. This flaw could cause a Java application using Beans to leak sensitive information, or affect application availability. It was discovered that the JSSE component could leak timing information during the TLS/SSL handshake. This could possibly lead to disclosure of information about the used encryption keys. The updated packages provides a solution for these security issues.</description>
+<category></category>
+</item>
+<item>
+<title>Gentoo Linux Security Advisory 201401-14</title>
+<link>https://packetstormsecurity.com/files/124839/glsa-201401-14.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124839/glsa-201401-14.txt</guid>
+<comments>https://packetstormsecurity.com/files/124839/Gentoo-Linux-Security-Advisory-201401-14.html</comments>
+<pubDate>Mon, 20 Jan 2014 20:20:53 GMT</pubDate>
+<description>Gentoo Linux Security Advisory 201401-14 - Multiple vulnerabilities have been found in cURL, allowing attackers to execute arbitrary code or cause Denial of Service. Versions less than 7.34.0-r1 are affected.</description>
+<category></category>
+</item>
+<item>
+<title>Gentoo Linux Security Advisory 201401-13</title>
+<link>https://packetstormsecurity.com/files/124838/glsa-201401-13.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124838/glsa-201401-13.txt</guid>
+<comments>https://packetstormsecurity.com/files/124838/Gentoo-Linux-Security-Advisory-201401-13.html</comments>
+<pubDate>Mon, 20 Jan 2014 20:20:08 GMT</pubDate>
+<description>Gentoo Linux Security Advisory 201401-13 - Multiple vulnerabilities have been found in VirtualBox, allowing local attackers to escalate their privileges or cause a Denial of Service condition. Versions less than 4.2.22 are affected.</description>
+<category></category>
+</item>
+<item>
+<title>Gentoo Linux Security Advisory 201401-12</title>
+<link>https://packetstormsecurity.com/files/124837/glsa-201401-12.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124837/glsa-201401-12.txt</guid>
+<comments>https://packetstormsecurity.com/files/124837/Gentoo-Linux-Security-Advisory-201401-12.html</comments>
+<pubDate>Mon, 20 Jan 2014 20:08:33 GMT</pubDate>
+<description>Gentoo Linux Security Advisory 201401-12 - Multiple vulnerabilities have been found in GNUstep Base library, the worst of which allow execution of arbitrary code. Versions less than 1.20.1 are affected.</description>
+<category></category>
+</item>
+<item>
+<title>BlueCom 5360/52018 Password Reset</title>
+<link>https://packetstormsecurity.com/files/124858/bluecom-reset.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124858/bluecom-reset.txt</guid>
+<comments>https://packetstormsecurity.com/files/124858/BlueCom-5360-52018-Password-Reset.html</comments>
+<pubDate>Mon, 20 Jan 2014 11:33:33 GMT</pubDate>
+<description>BlueCom router model 5360/52018 remote password reset exploit.</description>
+<category></category>
+</item>
+<item>
+<title>Doodle4Gift Cross Site Scripting</title>
+<link>https://packetstormsecurity.com/files/124856/doodle4gift-xssdisclose.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124856/doodle4gift-xssdisclose.txt</guid>
+<comments>https://packetstormsecurity.com/files/124856/Doodle4Gift-Cross-Site-Scripting.html</comments>
+<pubDate>Mon, 20 Jan 2014 10:22:22 GMT</pubDate>
+<description>Doodgle4Gift suffers from cross site scripting and information disclosure vulnerabilities.</description>
+<category></category>
+</item>
+<item>
+<title>Cookies</title>
+<link>https://packetstormsecurity.com/files/124860/cookies-persian.pdf</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124860/cookies-persian.pdf</guid>
+<comments>https://packetstormsecurity.com/files/124860/Cookies.html</comments>
+<pubDate>Mon, 20 Jan 2014 10:01:11 GMT</pubDate>
+<description>This is a whitepaper discussing the use of cookies. Written in Persian.</description>
+<category></category>
+</item>
+<item>
+<title>Autoresponder PRO Cross Site Scripting</title>
+<link>https://packetstormsecurity.com/files/124853/arppro-xss.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124853/arppro-xss.txt</guid>
+<comments>https://packetstormsecurity.com/files/124853/Autoresponder-PRO-Cross-Site-Scripting.html</comments>
+<pubDate>Mon, 20 Jan 2014 09:22:22 GMT</pubDate>
+<description>Autoresponder PRO suffers from a cross site scripting vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Teracom Modem T2-B-Gawv1.4U10Y-BI Cross Site Scripting</title>
+<link>https://packetstormsecurity.com/files/124857/teracom-xss.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124857/teracom-xss.txt</guid>
+<comments>https://packetstormsecurity.com/files/124857/Teracom-Modem-T2-B-Gawv1.4U10Y-BI-Cross-Site-Scripting.html</comments>
+<pubDate>Mon, 20 Jan 2014 04:44:44 GMT</pubDate>
+<description>Teracom Modem version T2-B-Gawv1.4U10Y-BI suffers from a cross site scripting vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>WordPress Social Ring 1.1.9 Cross Site Scripting</title>
+<link>https://packetstormsecurity.com/files/124851/wpsocialring-xss.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/124851/wpsocialring-xss.txt</guid>
+<comments>https://packetstormsecurity.com/files/124851/WordPress-Social-Ring-1.1.9-Cross-Site-Scripting.html</comments>
+<pubDate>Mon, 20 Jan 2014 03:33:33 GMT</pubDate>
+<description>WordPress Social Ring plugin versions 1.0 through 1.1.9 suffer from a cross site scripting vulnerability.</description>
+<category></category>
+</item>
+
+
+</channel>
+</rss>
+

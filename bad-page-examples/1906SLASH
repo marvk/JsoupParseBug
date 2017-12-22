@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Files &#8776; Packet Storm</title>
+  <description>Packet Storm - Information Security Services, News, Files, Tools, Exploits, Advisories and Whitepapers</description>
+  <link>https://packetstormsecurity.com/</link>
+  <language>en-us</language>
+  <lastBuildDate>Fri, 22 Dec 2017 02:59:52 GMT</lastBuildDate>
+
+  <image>
+    <title>Packet Storm</title>
+    <width>144</width><height>400</height>
+    <link>https://packetstormsecurity.com/</link>
+    <url>https://ssl.google-analytics.com/__utm.gif?utmwv=1.3&amp;utmn=2393642289&amp;utmcs=ISO-8859-1&amp;utmsr=31337x31337&amp;utmsc=32-bit&amp;utmul=en-us&amp;utmje=0&amp;utmfl=-&amp;utmcn=1&amp;utmdt=Files%u2248%20Packet%20Storm&amp;utmhn=packetstormsecurity.com&amp;utmr=-&amp;utmp=%2Ffiles%2Fpage1906%2F&amp;utmac=UA-18885198-1&amp;utmcc=__utma%3D32867617.2393642289.1513911592.1513911592.1513911592.1%3B%2B__utmz%3D32867617.1513911592.1.1.utmccn%3D(direct)%7Cutmcsr%3D(direct)%7Cutmcmd%3D(none)</url>
+  </image>
+ 
+<item>
+<title>CA BrightStor ARCserve Message Engine Buffer Overflow</title>
+<link>https://packetstormsecurity.com/files/83197/message_engine.rb.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/83197/message_engine.rb.txt</guid>
+<comments>https://packetstormsecurity.com/files/83197/CA-BrightStor-ARCserve-Message-Engine-Buffer-Overflow.html</comments>
+<pubDate>Thu, 26 Nov 2009 00:34:53 GMT</pubDate>
+<description>This Metasploit module exploits a buffer overflow in Computer Associates BrightStor ARCserve Backup 11.1 - 11.5 SP2. By sending a specially crafted RPC request, an attacker could overflow the buffer and execute arbitrary code.</description>
+<category></category>
+</item>
+<item>
+<title>CA BrightStor ARCserve License Service GCR NETWORK Buffer Overflow</title>
+<link>https://packetstormsecurity.com/files/82942/license_gcr.rb.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82942/license_gcr.rb.txt</guid>
+<comments>https://packetstormsecurity.com/files/82942/CA-BrightStor-ARCserve-License-Service-GCR-NETWORK-Buffer-Overflow.html</comments>
+<pubDate>Thu, 26 Nov 2009 00:34:53 GMT</pubDate>
+<description>This Metasploit module exploits a stack overflow in Computer Associates BrightStor ARCserve Backup 11.0. By sending a specially crafted request to the lic98rmtd.exe service, an attacker could overflow the buffer and execute arbitrary code.</description>
+<category></category>
+</item>
+<item>
+<title>CA BrightStor ARCserve for Laptops &amp; Desktops LGServer Buffer Overflow</title>
+<link>https://packetstormsecurity.com/files/83198/lgserver_rxrlogin.rb.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/83198/lgserver_rxrlogin.rb.txt</guid>
+<comments>https://packetstormsecurity.com/files/83198/CA-BrightStor-ARCserve-for-Laptops-Desktops-LGServer-Buffer-Overflow.html</comments>
+<pubDate>Thu, 26 Nov 2009 00:34:53 GMT</pubDate>
+<description>This Metasploit module exploits a stack overflow in Computer Associates BrightStor ARCserve Backup for Laptops &amp; Desktops 11.1. By sending a specially crafted request, an attacker could overflow the buffer and execute arbitrary code.</description>
+<category></category>
+</item>
+<item>
+<title>eDirectory 8.7.3 iMonitor Remote Stack Overflow</title>
+<link>https://packetstormsecurity.com/files/82943/edirectory_imonitor.rb.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82943/edirectory_imonitor.rb.txt</guid>
+<comments>https://packetstormsecurity.com/files/82943/eDirectory-8.7.3-iMonitor-Remote-Stack-Overflow.html</comments>
+<pubDate>Thu, 26 Nov 2009 00:34:53 GMT</pubDate>
+<description>This Metasploit module exploits a stack overflow in eDirectory 8.7.3 iMonitor service. This vulnerability was discovered by Peter Winter-Smith of NGSSoftware.</description>
+<category></category>
+</item>
+<item>
+<title>Netcat v1.10 NT Stack Overflow</title>
+<link>https://packetstormsecurity.com/files/83199/netcat110_nt.rb.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/83199/netcat110_nt.rb.txt</guid>
+<comments>https://packetstormsecurity.com/files/83199/Netcat-v1.10-NT-Stack-Overflow.html</comments>
+<pubDate>Thu, 26 Nov 2009 00:34:53 GMT</pubDate>
+<description>This Metasploit module exploits a stack overflow in Netcat v1.10 NT. By sending an overly long string we are able to overwrite SEH. The vulnerability exists when netcat is used to bind (-e) an executable to a port in doexec.c. This Metasploit module tested successfully using &quot;c:\\&gt;nc -L -p 31337 -e ftp&quot;.</description>
+<category></category>
+</item>
+<item>
+<title>GRAudit Grep Auditing Tool 1.4</title>
+<link>https://packetstormsecurity.com/files/82922/graudit-1.4.tar.gz</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82922/graudit-1.4.tar.gz</guid>
+<comments>https://packetstormsecurity.com/files/82922/GRAudit-Grep-Auditing-Tool-1.4.html</comments>
+<pubDate>Wed, 25 Nov 2009 22:54:03 GMT</pubDate>
+<description>Graudit is a simple script and signature sets that allows you to find potential security flaws in source code using the GNU utility, grep. It&#39;s comparable to other static analysis applications like RATS, SWAAT, and flaw-finder while keeping the technical requirements to a minimum and being very flexible.</description>
+<category></category>
+</item>
+<item>
+<title>phpBazar 2.1.1fix Administrative Access</title>
+<link>https://packetstormsecurity.com/files/82921/phpbazar-access.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82921/phpbazar-access.txt</guid>
+<comments>https://packetstormsecurity.com/files/82921/phpBazar-2.1.1fix-Administrative-Access.html</comments>
+<pubDate>Wed, 25 Nov 2009 22:50:52 GMT</pubDate>
+<description>phpBazar version 2.1.1fix suffers from a direct access vulnerability that allows for use of the administrative panel.</description>
+<category></category>
+</item>
+<item>
+<title>Radio istek Configuration Disclosure</title>
+<link>https://packetstormsecurity.com/files/82920/istek-disclose.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82920/istek-disclose.txt</guid>
+<comments>https://packetstormsecurity.com/files/82920/Radio-istek-Configuration-Disclosure.html</comments>
+<pubDate>Wed, 25 Nov 2009 22:47:05 GMT</pubDate>
+<description>Radio istek scripti versions 2.5 suffers from a remote configuration disclosure vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Debian Linux Security Advisory 1941-1</title>
+<link>https://packetstormsecurity.com/files/82919/dsa-1941-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82919/dsa-1941-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/82919/Debian-Linux-Security-Advisory-1941-1.html</comments>
+<pubDate>Wed, 25 Nov 2009 22:41:53 GMT</pubDate>
+<description>Debian Linux Security Advisory 1941-1 - Several integer overflows, buffer overflows and memory allocation errors were discovered in the Poppler PDF rendering library, which may lead to denial of service or the execution of arbitrary code if a user is tricked into opening a malformed PDF document.</description>
+<category></category>
+</item>
+<item>
+<title>Fake Hit Generator Shell Upload</title>
+<link>https://packetstormsecurity.com/files/82918/fakehitgen-shell.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82918/fakehitgen-shell.txt</guid>
+<comments>https://packetstormsecurity.com/files/82918/Fake-Hit-Generator-Shell-Upload.html</comments>
+<pubDate>Wed, 25 Nov 2009 21:37:14 GMT</pubDate>
+<description>Fake Hit Generator suffers from a remote shell upload vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Joomla G Calendar 1.1.2 SQL Injection</title>
+<link>https://packetstormsecurity.com/files/82917/joomlagcalendar-sql.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82917/joomlagcalendar-sql.txt</guid>
+<comments>https://packetstormsecurity.com/files/82917/Joomla-G-Calendar-1.1.2-SQL-Injection.html</comments>
+<pubDate>Wed, 25 Nov 2009 21:32:04 GMT</pubDate>
+<description>The Joomla G Calendar component version 1.1.2 suffers from a remote SQL injection vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Gentoo Linux Security Advisory 200911-5</title>
+<link>https://packetstormsecurity.com/files/82902/glsa-200911-05.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82902/glsa-200911-05.txt</guid>
+<comments>https://packetstormsecurity.com/files/82902/Gentoo-Linux-Security-Advisory-200911-5.html</comments>
+<pubDate>Wed, 25 Nov 2009 16:01:17 GMT</pubDate>
+<description>Gentoo Linux Security Advisory 200911-5 - Multiple vulnerabilities have been discovered in Wireshark, allowing for the remote execution of arbitrary code, or Denial of Service. Versions less than 1.2.3 are affected.</description>
+<category></category>
+</item>
+<item>
+<title>Gentoo Linux Security Advisory 200911-4</title>
+<link>https://packetstormsecurity.com/files/82901/glsa-200911-04.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82901/glsa-200911-04.txt</guid>
+<comments>https://packetstormsecurity.com/files/82901/Gentoo-Linux-Security-Advisory-200911-4.html</comments>
+<pubDate>Wed, 25 Nov 2009 16:00:53 GMT</pubDate>
+<description>Gentoo Linux Security Advisory 200911-4 - An untrusted search path vulnerability in the dstat might result in the execution of arbitrary code. Robert Buchholz of the Gentoo Security Team reported that dstat includes the current working directory and subdirectories in the Python module search path (sys.path) before calling import. Versions less than 0.6.9-r1 are affected.</description>
+<category></category>
+</item>
+<item>
+<title>Gentoo Linux Security Advisory 200911-3</title>
+<link>https://packetstormsecurity.com/files/82900/glsa-200911-03.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82900/glsa-200911-03.txt</guid>
+<comments>https://packetstormsecurity.com/files/82900/Gentoo-Linux-Security-Advisory-200911-3.html</comments>
+<pubDate>Wed, 25 Nov 2009 16:00:02 GMT</pubDate>
+<description>Gentoo Linux Security Advisory 200911-3 - Multiple vulnerabilities have been found in the UW IMAP toolkit and the c-client library, the worst of which leading to the execution of arbitrary code. Versions less than 2007e are affected.</description>
+<category></category>
+</item>
+<item>
+<title>Debian Linux Security Advisory 1939-1</title>
+<link>https://packetstormsecurity.com/files/82899/dsa-1939-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82899/dsa-1939-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/82899/Debian-Linux-Security-Advisory-1939-1.html</comments>
+<pubDate>Wed, 25 Nov 2009 15:59:31 GMT</pubDate>
+<description>Debian Linux Security Advisory 1939-1 - Lucas Adamski, Matthew Gregan, David Keeler, and Dan Kaminsky discovered that libvorbis, a library for the Vorbis general-purpose compressed audio codec, did not correctly handle certain malformed ogg files. An attacher could cause a denial of service (memory corruption and application crash) or possibly execute arbitrary code via a crafted .ogg file.</description>
+<category></category>
+</item>
+<item>
+<title>Klinza 0.0.1 Local File Inclusion</title>
+<link>https://packetstormsecurity.com/files/82898/klinza-lfi.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82898/klinza-lfi.txt</guid>
+<comments>https://packetstormsecurity.com/files/82898/Klinza-0.0.1-Local-File-Inclusion.html</comments>
+<pubDate>Wed, 25 Nov 2009 02:22:07 GMT</pubDate>
+<description>Klinza versions 0.0.1 and below local file inclusion exploit.</description>
+<category></category>
+</item>
+<item>
+<title>PPScan Portscanner 0.3</title>
+<link>https://packetstormsecurity.com/files/82897/ppscan-0.3.tar.gz</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82897/ppscan-0.3.tar.gz</guid>
+<comments>https://packetstormsecurity.com/files/82897/PPScan-Portscanner-0.3.html</comments>
+<pubDate>Tue, 24 Nov 2009 21:36:29 GMT</pubDate>
+<description>ppscan is yet another portscanner. However, it can scan an entire Class C subnet for a range of ports not only using tcp-syn/tcp-connect but also by tunneling through HTTP proxies (either HTTP GET or HTTP CONNECT), or using FTP servers which allow arbitrary connections via PORT bounce method. It is multi-threaded, so it can blaze through connection attempts.</description>
+<category></category>
+</item>
+<item>
+<title>chipTAN Comfort Man-In-The-Middle</title>
+<link>https://packetstormsecurity.com/files/82896/chipTAN-mitm.pdf</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82896/chipTAN-mitm.pdf</guid>
+<comments>https://packetstormsecurity.com/files/82896/chipTAN-Comfort-Man-In-The-Middle.html</comments>
+<pubDate>Tue, 24 Nov 2009 21:34:32 GMT</pubDate>
+<description>Whitepaper discussing man-in-the-middle attacks against the chipTAN Comfort online banking system.</description>
+<category></category>
+</item>
+<item>
+<title>OpenX 2.8.1 Code Execution</title>
+<link>https://packetstormsecurity.com/files/82895/openx-exec.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82895/openx-exec.txt</guid>
+<comments>https://packetstormsecurity.com/files/82895/OpenX-2.8.1-Code-Execution.html</comments>
+<pubDate>Tue, 24 Nov 2009 21:32:29 GMT</pubDate>
+<description>OpenX versions 2.8.1 and below are vulnerable to remote code execution.</description>
+<category></category>
+</item>
+<item>
+<title>TYPSoft FTP Server Denial Of Service</title>
+<link>https://packetstormsecurity.com/files/82894/typsoftappe-dos.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82894/typsoftappe-dos.txt</guid>
+<comments>https://packetstormsecurity.com/files/82894/TYPSoft-FTP-Server-Denial-Of-Service.html</comments>
+<pubDate>Tue, 24 Nov 2009 21:13:35 GMT</pubDate>
+<description>TYPSoft FTP server remote denial of service exploit that makes use of APPE and DELE.</description>
+<category></category>
+</item>
+<item>
+<title>Denial Of Service In harbour.pl</title>
+<link>https://packetstormsecurity.com/files/82893/harbour-dos.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82893/harbour-dos.txt</guid>
+<comments>https://packetstormsecurity.com/files/82893/Denial-Of-Service-In-harbour.pl.html</comments>
+<pubDate>Tue, 24 Nov 2009 21:11:25 GMT</pubDate>
+<description>The harbour.pl script builds 1941 and below suffer from a remote denial of service vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Ubuntu Security Notice 861-1</title>
+<link>https://packetstormsecurity.com/files/82892/USN-861-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82892/USN-861-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/82892/Ubuntu-Security-Notice-861-1.html</comments>
+<pubDate>Tue, 24 Nov 2009 20:58:29 GMT</pubDate>
+<description>Ubuntu Security Notice 861-1 - It was discovered that libvorbis did not correctly handle ogg files with underpopulated Huffman trees. If a user were tricked into opening a specially crafted ogg file with an application that uses libvorbis, an attacker could cause a denial of service. It was discovered that libvorbis did not correctly handle certain malformed ogg files. If a user were tricked into opening a specially crafted ogg file with an application that uses libvorbis, an attacker could cause a denial of service or possibly execute arbitrary code with the user&#39;s privileges.</description>
+<category></category>
+</item>
+<item>
+<title>Quick.Cart / Quick.CMS XSRF</title>
+<link>https://packetstormsecurity.com/files/82891/quickcartcms-xsrf.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82891/quickcartcms-xsrf.txt</guid>
+<comments>https://packetstormsecurity.com/files/82891/Quick.Cart-Quick.CMS-XSRF.html</comments>
+<pubDate>Tue, 24 Nov 2009 20:56:09 GMT</pubDate>
+<description>Quick.Cart version 3.4 and Quick.CMS version 2.4 both suffer from cross site request forgery vulnerabilities.</description>
+<category></category>
+</item>
+<item>
+<title>PEAR Security Advisory 20091114-01</title>
+<link>https://packetstormsecurity.com/files/82890/advisory20091114-01.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82890/advisory20091114-01.txt</guid>
+<comments>https://packetstormsecurity.com/files/82890/PEAR-Security-Advisory-20091114-01.html</comments>
+<pubDate>Tue, 24 Nov 2009 20:54:01 GMT</pubDate>
+<description>PEAR Security Advisory - Multiple remote arbitrary command injections have been found in the Net_Pingand Net_Traceroute.Net_Ping versions below 2.4.5 and Net_Traceroute versions below 0.21.2 are affected.</description>
+<category></category>
+</item>
+<item>
+<title>WP-Cumulus 1.20 Cross Site Scripting</title>
+<link>https://packetstormsecurity.com/files/82889/wpcumulus-xss.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/82889/wpcumulus-xss.txt</guid>
+<comments>https://packetstormsecurity.com/files/82889/WP-Cumulus-1.20-Cross-Site-Scripting.html</comments>
+<pubDate>Tue, 24 Nov 2009 20:52:17 GMT</pubDate>
+<description>WP-Cumulus version 1.20 for WordPress suffers from path disclosure and cross site scripting vulnerabilities.</description>
+<category></category>
+</item>
+
+
+</channel>
+</rss>
+

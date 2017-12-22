@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Files &#8776; Packet Storm</title>
+  <description>Packet Storm - Information Security Services, News, Files, Tools, Exploits, Advisories and Whitepapers</description>
+  <link>https://packetstormsecurity.com/</link>
+  <language>en-us</language>
+  <lastBuildDate>Fri, 22 Dec 2017 02:48:42 GMT</lastBuildDate>
+
+  <image>
+    <title>Packet Storm</title>
+    <width>144</width><height>400</height>
+    <link>https://packetstormsecurity.com/</link>
+    <url>https://ssl.google-analytics.com/__utm.gif?utmwv=1.3&amp;utmn=2113451985&amp;utmcs=ISO-8859-1&amp;utmsr=31337x31337&amp;utmsc=32-bit&amp;utmul=en-us&amp;utmje=0&amp;utmfl=-&amp;utmcn=1&amp;utmdt=Files%u2248%20Packet%20Storm&amp;utmhn=packetstormsecurity.com&amp;utmr=-&amp;utmp=%2Ffiles%2Fpage17%2F&amp;utmac=UA-18885198-1&amp;utmcc=__utma%3D32867617.2113451985.1513910922.1513910922.1513910922.1%3B%2B__utmz%3D32867617.1513910922.1.1.utmccn%3D(direct)%7Cutmcsr%3D(direct)%7Cutmcmd%3D(none)</url>
+  </image>
+ 
+<item>
+<title>Red Hat Security Advisory 2017-3261-01</title>
+<link>https://packetstormsecurity.com/files/145110/RHSA-2017-3261-01.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145110/RHSA-2017-3261-01.txt</guid>
+<comments>https://packetstormsecurity.com/files/145110/Red-Hat-Security-Advisory-2017-3261-01.html</comments>
+<pubDate>Sun, 26 Nov 2017 23:23:00 GMT</pubDate>
+<description>Red Hat Security Advisory 2017-3261-01 - Samba is an open-source implementation of the Server Message Block protocol and the related Common Internet File System protocol, which allow PC-compatible machines to share files, printers, and various information. Security Fix: A use-after-free flaw was found in the way samba servers handled certain SMB1 requests. An unauthenticated attacker could send specially-crafted SMB1 requests to cause the server to crash or execute arbitrary code. </description>
+<category></category>
+</item>
+<item>
+<title>Linux mincore() Kernel Heap Page Disclosure</title>
+<link>https://packetstormsecurity.com/files/145109/GS20171125151523.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145109/GS20171125151523.txt</guid>
+<comments>https://packetstormsecurity.com/files/145109/Linux-mincore-Kernel-Heap-Page-Disclosure.html</comments>
+<pubDate>Sat, 25 Nov 2017 15:15:43 GMT</pubDate>
+<description>Linux mincore() discloses uninitialized kernel heap pages. When __walk_page_range() is used on a VM_HUGETLB VMA, callbacks from the mm_walk structure are only invoked for present pages. However, do_mincore() assumes that it will always get callbacks for all pages in the range passed to walk_page_range(), and when this assumption is violated, sys_mincore() copies uninitialized memory from the page allocator to userspace.</description>
+<category></category>
+</item>
+<item>
+<title>Microsoft Windows win32kfull!GreUpdateSpriteInternal Kernel Stack Memory Disclosure</title>
+<link>https://packetstormsecurity.com/files/145108/GS20171125151354.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145108/GS20171125151354.txt</guid>
+<comments>https://packetstormsecurity.com/files/145108/Microsoft-Windows-win32kfull-GreUpdateSpriteInternal-Kernel-Stack-Memory-Disclosure.html</comments>
+<pubDate>Sat, 25 Nov 2017 15:14:07 GMT</pubDate>
+<description>On Windows 10 32-bit version 1709, a kernel stack memory disclosure was discovered in win32kfull!GreUpdateSpriteInternal.</description>
+<category></category>
+</item>
+<item>
+<title>Microsoft Windows win32kbase!NtQueryCompositionInputQueueAndTransform Kernel Stack Memory Disclosure</title>
+<link>https://packetstormsecurity.com/files/145107/GS20171125151232.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145107/GS20171125151232.txt</guid>
+<comments>https://packetstormsecurity.com/files/145107/Microsoft-Windows-win32kbase-NtQueryCompositionInputQueueAndTransform-Kernel-Stack-Memory-Disclosure.html</comments>
+<pubDate>Sat, 25 Nov 2017 15:12:55 GMT</pubDate>
+<description>The win32k!NtQueryCompositionInputQueueAndTransform system call may disclose portions of uninitialized kernel stack memory to user-mode clients on Windows 10.</description>
+<category></category>
+</item>
+<item>
+<title>Microsoft Edge Chakra JIT Incorrect Function Declaration Scope</title>
+<link>https://packetstormsecurity.com/files/145106/GS20171125151104.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145106/GS20171125151104.txt</guid>
+<comments>https://packetstormsecurity.com/files/145106/Microsoft-Edge-Chakra-JIT-Incorrect-Function-Declaration-Scope.html</comments>
+<pubDate>Sat, 25 Nov 2017 15:11:14 GMT</pubDate>
+<description>Microsoft Edge Chakra JIT suffers from an incorrect function declaration scope.</description>
+<category></category>
+</item>
+<item>
+<title>Microsoft Edge Chakra JIT Inline::InlineCallApplyTarget_Shared Failed Return</title>
+<link>https://packetstormsecurity.com/files/145105/GS20171125150941.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145105/GS20171125150941.txt</guid>
+<comments>https://packetstormsecurity.com/files/145105/Microsoft-Edge-Chakra-JIT-Inline-InlineCallApplyTarget_Shared-Failed-Return.html</comments>
+<pubDate>Sat, 25 Nov 2017 15:09:49 GMT</pubDate>
+<description>Microsoft Edge Chakra JIT Inline::InlineCallApplyTarget_Shared does not return the return instruction.</description>
+<category></category>
+</item>
+<item>
+<title>Microsoft Edge Chakra JIT GlobOpt::OptTagChecks Property Consideration</title>
+<link>https://packetstormsecurity.com/files/145104/GS20171125150745.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145104/GS20171125150745.txt</guid>
+<comments>https://packetstormsecurity.com/files/145104/Microsoft-Edge-Chakra-JIT-GlobOpt-OptTagChecks-Property-Consideration.html</comments>
+<pubDate>Sat, 25 Nov 2017 15:07:50 GMT</pubDate>
+<description>Microsoft Edge Chakra JIT GlobOpt::OptTagChecks must consider IsLoopPrePass properly.</description>
+<category></category>
+</item>
+<item>
+<title>Microsoft Edge Chakra JIT BailOutOnTaggedValue Bailouts</title>
+<link>https://packetstormsecurity.com/files/145103/GS20171125150614.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145103/GS20171125150614.txt</guid>
+<comments>https://packetstormsecurity.com/files/145103/Microsoft-Edge-Chakra-JIT-BailOutOnTaggedValue-Bailouts.html</comments>
+<pubDate>Sat, 25 Nov 2017 15:06:20 GMT</pubDate>
+<description>Microsoft Edge Chakra JIT BailOutOnTaggedValue bailouts can be generated for constant values.</description>
+<category></category>
+</item>
+<item>
+<title>WebKit WebCore::FormSubmission::create Use-After-Free</title>
+<link>https://packetstormsecurity.com/files/145102/GS20171125150442.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145102/GS20171125150442.txt</guid>
+<comments>https://packetstormsecurity.com/files/145102/WebKit-WebCore-FormSubmission-create-Use-After-Free.html</comments>
+<pubDate>Sat, 25 Nov 2017 15:05:18 GMT</pubDate>
+<description>WebKit suffers from a use-after-free vulnerability in WebCore::FormSubmission::create.</description>
+<category></category>
+</item>
+<item>
+<title>WebKit WebCore::RenderObject::previousSibling Use-After-Free</title>
+<link>https://packetstormsecurity.com/files/145101/GS20171125145922.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145101/GS20171125145922.txt</guid>
+<comments>https://packetstormsecurity.com/files/145101/WebKit-WebCore-RenderObject-previousSibling-Use-After-Free.html</comments>
+<pubDate>Sat, 25 Nov 2017 15:02:26 GMT</pubDate>
+<description>WebKit suffers from a use-after-free vulnerability in WebCore::RenderObject::previousSibling.</description>
+<category></category>
+</item>
+<item>
+<title>AIEngine 1.8.2</title>
+<link>https://packetstormsecurity.com/files/145100/aiengine-1.8.2.tar.gz</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145100/aiengine-1.8.2.tar.gz</guid>
+<comments>https://packetstormsecurity.com/files/145100/AIEngine-1.8.2.html</comments>
+<pubDate>Sat, 25 Nov 2017 14:47:39 GMT</pubDate>
+<description>AIEngine is a packet inspection engine with capabilities of learning without any human intervention. It helps network/security professionals to identify traffic and develop signatures for use them on NIDS, Firewalls, Traffic classifiers and so on.</description>
+<category></category>
+</item>
+<item>
+<title>Ubuntu Security Notice USN-3492-1</title>
+<link>https://packetstormsecurity.com/files/145099/USN-3492-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145099/USN-3492-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/145099/Ubuntu-Security-Notice-USN-3492-1.html</comments>
+<pubDate>Fri, 24 Nov 2017 12:13:00 GMT</pubDate>
+<description>Ubuntu Security Notice 3492-1 - It was discovered that LibRaw incorrectly handled photo files. If a user or automated system were tricked into processing a specially crafted photo file, a remote attacker could cause applications linked against LibRaw to crash, resulting in a denial of service, or possibly execute arbitrary code</description>
+<category></category>
+</item>
+<item>
+<title>Ubuntu Security Notice USN-3491-1</title>
+<link>https://packetstormsecurity.com/files/145098/USN-3491-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145098/USN-3491-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/145098/Ubuntu-Security-Notice-USN-3491-1.html</comments>
+<pubDate>Fri, 24 Nov 2017 12:12:00 GMT</pubDate>
+<description>Ubuntu Security Notice 3491-1 - Leon Weber discovered that the ldns-keygen tool incorrectly set permissions on private keys. A local attacker could possibly use this issue to obtain generated private keys. This issue only applied to Ubuntu 14.04 LTS. Stephan Zeisberg discovered that ldns incorrectly handled memory when processing data. A remote attacker could use this issue to cause ldns to crash, resulting in a denial of service, or possibly execute arbitrary code. Various other issues were also addressed.</description>
+<category></category>
+</item>
+<item>
+<title>pfSense 2.4.1 Clickjacking</title>
+<link>https://packetstormsecurity.com/files/145094/pfsense241-clickjack.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145094/pfsense241-clickjack.txt</guid>
+<comments>https://packetstormsecurity.com/files/145094/pfSense-2.4.1-Clickjacking.html</comments>
+<pubDate>Thu, 23 Nov 2017 12:12:12 GMT</pubDate>
+<description>pfSense version 2.4.1 suffers from a clickjacking vulnerability in the cross site request forgery error page.</description>
+<category></category>
+</item>
+<item>
+<title>CS Cart 4.6.2 Shell Upload</title>
+<link>https://packetstormsecurity.com/files/145096/csccart462-exec.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145096/csccart462-exec.txt</guid>
+<comments>https://packetstormsecurity.com/files/145096/CS-Cart-4.6.2-Shell-Upload.html</comments>
+<pubDate>Thu, 23 Nov 2017 12:11:11 GMT</pubDate>
+<description>CS Cart version 4.6.2 suffers from a remote shell upload vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Debian Security Advisory 4046-1</title>
+<link>https://packetstormsecurity.com/files/145093/dsa-4046-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145093/dsa-4046-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/145093/Debian-Security-Advisory-4046-1.html</comments>
+<pubDate>Thu, 23 Nov 2017 11:11:00 GMT</pubDate>
+<description>Debian Linux Security Advisory 4046-1 - Tobias Schneider discovered that libspring-ldap-java, a Java library for Spring-based applications using the Lightweight Directory Access Protocol, would under some circumstances allow authentication with a correct username but an arbitrary password.</description>
+<category></category>
+</item>
+<item>
+<title>CommuniGatePro 6.1.16 Cross Site Scripting</title>
+<link>https://packetstormsecurity.com/files/145095/communigatepro-xss.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145095/communigatepro-xss.txt</guid>
+<comments>https://packetstormsecurity.com/files/145095/CommuniGatePro-6.1.16-Cross-Site-Scripting.html</comments>
+<pubDate>Thu, 23 Nov 2017 10:11:11 GMT</pubDate>
+<description>CommuniGatePro version 6.1.16 suffers from multiple stored cross site scripting vulnerabilities.</description>
+<category></category>
+</item>
+<item>
+<title>D-Link DIR-850L Credential Disclosure</title>
+<link>https://packetstormsecurity.com/files/145097/dlink-850-admin-creds-retriever.sh.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145097/dlink-850-admin-creds-retriever.sh.txt</guid>
+<comments>https://packetstormsecurity.com/files/145097/D-Link-DIR-850L-Credential-Disclosure.html</comments>
+<pubDate>Thu, 23 Nov 2017 09:22:22 GMT</pubDate>
+<description>D-Link DIR-850L remote code execution variant exploit that extracts username and password for the device.</description>
+<category></category>
+</item>
+<item>
+<title>WebKit WebCore::DocumentLoader::frameLoader Use-After-Free</title>
+<link>https://packetstormsecurity.com/files/145092/GS20171122160017.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145092/GS20171122160017.txt</guid>
+<comments>https://packetstormsecurity.com/files/145092/WebKit-WebCore-DocumentLoader-frameLoader-Use-After-Free.html</comments>
+<pubDate>Wed, 22 Nov 2017 16:11:40 GMT</pubDate>
+<description>WebKit suffers from a use-after-free vulnerability in WebCore::DocumentLoader::frameLoader.</description>
+<category></category>
+</item>
+<item>
+<title>WebKit WebCore::Style::TreeResolver::styleForElement Use-After-Free</title>
+<link>https://packetstormsecurity.com/files/145091/GS20171122155815.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145091/GS20171122155815.txt</guid>
+<comments>https://packetstormsecurity.com/files/145091/WebKit-WebCore-Style-TreeResolver-styleForElement-Use-After-Free.html</comments>
+<pubDate>Wed, 22 Nov 2017 15:58:36 GMT</pubDate>
+<description>WebKit suffers from a use-after-free vulnerability in WebCore::Style::TreeResolver::styleForElement.</description>
+<category></category>
+</item>
+<item>
+<title>WebKit WebCore::SVGPatternElement::collectPatternAttributes Out-Of-Bounds Read</title>
+<link>https://packetstormsecurity.com/files/145090/GS20171122155626.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145090/GS20171122155626.txt</guid>
+<comments>https://packetstormsecurity.com/files/145090/WebKit-WebCore-SVGPatternElement-collectPatternAttributes-Out-Of-Bounds-Read.html</comments>
+<pubDate>Wed, 22 Nov 2017 15:56:50 GMT</pubDate>
+<description>WebKit suffers from an out-of-bounds read in WebCore::SVGPatternElement::collectPatternAttributes.</description>
+<category></category>
+</item>
+<item>
+<title>Webkit WebCore::SimpleLineLayout::RunResolver::runForPoint Out-Of-Bounds Read</title>
+<link>https://packetstormsecurity.com/files/145089/GS20171122155447.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145089/GS20171122155447.txt</guid>
+<comments>https://packetstormsecurity.com/files/145089/Webkit-WebCore-SimpleLineLayout-RunResolver-runForPoint-Out-Of-Bounds-Read.html</comments>
+<pubDate>Wed, 22 Nov 2017 15:55:40 GMT</pubDate>
+<description>WebKit suffers from an out-of-bounds read in WebCore::SimpleLineLayout::RunResolver::runForPoint.</description>
+<category></category>
+</item>
+<item>
+<title>WebKit WebCore::RenderText::localCaretRect Out-Of-Bounds Read</title>
+<link>https://packetstormsecurity.com/files/145088/GS20171122155126.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145088/GS20171122155126.txt</guid>
+<comments>https://packetstormsecurity.com/files/145088/WebKit-WebCore-RenderText-localCaretRect-Out-Of-Bounds-Read.html</comments>
+<pubDate>Wed, 22 Nov 2017 15:53:13 GMT</pubDate>
+<description>WebKit suffers from an out-of-bounds read in WebCore::RenderText::localCaretRect.</description>
+<category></category>
+</item>
+<item>
+<title>WebKit WebCore::AXObjectCache::performDeferredCacheUpdate Use-After-Free</title>
+<link>https://packetstormsecurity.com/files/145087/GS20171122154944.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145087/GS20171122154944.txt</guid>
+<comments>https://packetstormsecurity.com/files/145087/WebKit-WebCore-AXObjectCache-performDeferredCacheUpdate-Use-After-Free.html</comments>
+<pubDate>Wed, 22 Nov 2017 15:50:02 GMT</pubDate>
+<description>There is a use-after-free security vulnerability in WebCore::AXObjectCache::performDeferredCacheUpdate in WebKit.</description>
+<category></category>
+</item>
+<item>
+<title>WebKit WebCore::PositionIterator::decrement Use-After-Free</title>
+<link>https://packetstormsecurity.com/files/145086/GS20171122154803.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/145086/GS20171122154803.txt</guid>
+<comments>https://packetstormsecurity.com/files/145086/WebKit-WebCore-PositionIterator-decrement-Use-After-Free.html</comments>
+<pubDate>Wed, 22 Nov 2017 15:48:27 GMT</pubDate>
+<description>There is a use-after-free security vulnerability in WebCore::PositionIterator::decrement in WebKit.</description>
+<category></category>
+</item>
+
+
+</channel>
+</rss>
+

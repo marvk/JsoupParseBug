@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <title>Files &#8776; Packet Storm</title>
+  <description>Packet Storm - Information Security Services, News, Files, Tools, Exploits, Advisories and Whitepapers</description>
+  <link>https://packetstormsecurity.com/</link>
+  <language>en-us</language>
+  <lastBuildDate>Fri, 22 Dec 2017 02:53:19 GMT</lastBuildDate>
+
+  <image>
+    <title>Packet Storm</title>
+    <width>144</width><height>400</height>
+    <link>https://packetstormsecurity.com/</link>
+    <url>https://ssl.google-analytics.com/__utm.gif?utmwv=1.3&amp;utmn=1174139612&amp;utmcs=ISO-8859-1&amp;utmsr=31337x31337&amp;utmsc=32-bit&amp;utmul=en-us&amp;utmje=0&amp;utmfl=-&amp;utmcn=1&amp;utmdt=Files%u2248%20Packet%20Storm&amp;utmhn=packetstormsecurity.com&amp;utmr=-&amp;utmp=%2Ffiles%2Fpage992&amp;utmac=UA-18885198-1&amp;utmcc=__utma%3D32867617.1174139612.1513911199.1513911199.1513911199.1%3B%2B__utmz%3D32867617.1513911199.1.1.utmccn%3D(direct)%7Cutmcsr%3D(direct)%7Cutmcmd%3D(none)</url>
+  </image>
+ 
+<item>
+<title>Raspberry Pi Firmware Updater File Clobber</title>
+<link>https://packetstormsecurity.com/files/120623/raspberrypi-insecure.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120623/raspberrypi-insecure.txt</guid>
+<comments>https://packetstormsecurity.com/files/120623/Raspberry-Pi-Firmware-Updater-File-Clobber.html</comments>
+<pubDate>Mon, 04 Mar 2013 11:11:11 GMT</pubDate>
+<description>Raspberry Pi firmware updater suffers from a /tmp/file clobber vulnerability and also fails to offer a secure means to update the system.</description>
+<category></category>
+</item>
+<item>
+<title>WordPress Counter Per Day 3.2.3 Path Disclosure</title>
+<link>https://packetstormsecurity.com/files/120631/wpcounterperday-disclosedos.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120631/wpcounterperday-disclosedos.txt</guid>
+<comments>https://packetstormsecurity.com/files/120631/WordPress-Counter-Per-Day-3.2.3-Path-Disclosure.html</comments>
+<pubDate>Mon, 04 Mar 2013 10:22:22 GMT</pubDate>
+<description>WordPress Counter Per Day plugin versions 3.2.3 and below suffer from denial of service and path disclosure vulnerabilities.</description>
+<category></category>
+</item>
+<item>
+<title>Common Name Grabber Script</title>
+<link>https://packetstormsecurity.com/files/120634/ssl_hostname_resolver.pl.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120634/ssl_hostname_resolver.pl.txt</guid>
+<comments>https://packetstormsecurity.com/files/120634/Common-Name-Grabber-Script.html</comments>
+<pubDate>Mon, 04 Mar 2013 10:22:22 GMT</pubDate>
+<description>This is a simple perl script that will scan a given IP range and extract the Common Name from all SSL certificates. It is useful for discovery during penetration tests.</description>
+<category></category>
+</item>
+<item>
+<title>WordPress Caulk Path Disclosure</title>
+<link>https://packetstormsecurity.com/files/120632/wpcaulk-disclose.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120632/wpcaulk-disclose.txt</guid>
+<comments>https://packetstormsecurity.com/files/120632/WordPress-Caulk-Path-Disclosure.html</comments>
+<pubDate>Mon, 04 Mar 2013 09:22:22 GMT</pubDate>
+<description>WordPress Caulk theme suffers from a path disclosure vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Debian Security Advisory 2636-2</title>
+<link>https://packetstormsecurity.com/files/120622/dsa-2636-2.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120622/dsa-2636-2.txt</guid>
+<comments>https://packetstormsecurity.com/files/120622/Debian-Security-Advisory-2636-2.html</comments>
+<pubDate>Sun, 03 Mar 2013 18:45:55 GMT</pubDate>
+<description>Debian Linux Security Advisory 2636-2 - A regression in combination with pygrub has been discovered. For the stable distribution (squeeze), these problems have been fixed in version 4.0.1-5.8.</description>
+<category></category>
+</item>
+<item>
+<title>Windtalking Computers: Frequency Normalization, Binary Coding Systems, and Encryption</title>
+<link>https://packetstormsecurity.com/files/120621/0912.4080.pdf</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120621/0912.4080.pdf</guid>
+<comments>https://packetstormsecurity.com/files/120621/Windtalking-Computers-Frequency-Normalization-Binary-Coding-Systems-and-Encryption.html</comments>
+<pubDate>Sun, 03 Mar 2013 18:33:01 GMT</pubDate>
+<description>The goal of this paper is to discuss the application of known techniques, knowledge and technology in a novel way, to encrypt computer and non-computer data. There are two distinct and separate methods presented in this paper.</description>
+<category></category>
+</item>
+<item>
+<title>Botan C++ Crypto Algorithms Library 1.10.5</title>
+<link>https://packetstormsecurity.com/files/120620/Botan-1.10.5.tgz</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120620/Botan-1.10.5.tgz</guid>
+<comments>https://packetstormsecurity.com/files/120620/Botan-C-Crypto-Algorithms-Library-1.10.5.html</comments>
+<pubDate>Sun, 03 Mar 2013 18:30:09 GMT</pubDate>
+<description>Botan is a C++ library of cryptographic algorithms, including AES, DES, SHA-1, RSA, DSA, Diffie-Hellman, and many others. It also supports X.509 certificates and CRLs, and PKCS #10 certificate requests, and has a high level filter/pipe message processing system. The library is easily portable to most systems and compilers, and includes a substantial tutorial and API reference.</description>
+<category></category>
+</item>
+<item>
+<title>PloggerGallery 1.0 RC1 CSRF / XSS / SQL Injection</title>
+<link>https://packetstormsecurity.com/files/120619/ploggergallery-sqlxssxsrf.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120619/ploggergallery-sqlxssxsrf.txt</guid>
+<comments>https://packetstormsecurity.com/files/120619/PloggerGallery-1.0-RC1-CSRF-XSS-SQL-Injection.html</comments>
+<pubDate>Sat, 02 Mar 2013 23:15:18 GMT</pubDate>
+<description>PloggerGallery version 1.0 RC1 suffers from cross site request forgery, cross site scripting, and remote SQL injection vulnerabilities.</description>
+<category></category>
+</item>
+<item>
+<title>Ruby Gem ftpd-0.2.1 Remote Command Execution</title>
+<link>https://packetstormsecurity.com/files/120618/rubyftpd-exec.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120618/rubyftpd-exec.txt</guid>
+<comments>https://packetstormsecurity.com/files/120618/Ruby-Gem-ftpd-0.2.1-Remote-Command-Execution.html</comments>
+<pubDate>Sat, 02 Mar 2013 23:13:49 GMT</pubDate>
+<description>Ruby Gem ftpd-0.2.1 suffers from a remote command execution.</description>
+<category></category>
+</item>
+<item>
+<title>pyHIDS 0.2</title>
+<link>https://packetstormsecurity.com/files/120617/cedricbonhomme-pyhids-fd1cfb816ed0.tar.gz</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120617/cedricbonhomme-pyhids-fd1cfb816ed0.tar.gz</guid>
+<comments>https://packetstormsecurity.com/files/120617/pyHIDS-0.2.html</comments>
+<pubDate>Sat, 02 Mar 2013 23:11:08 GMT</pubDate>
+<description>pyHIDS is a simple HIDS (host-based intrusion detection system) for verifying the integrity of a system. It uses an RSA signature to check the integrity of its database. Alerts are written in the logs of the system and can be sent via email to a list of users. You can define rules to specify files to be checked periodically.</description>
+<category></category>
+</item>
+<item>
+<title>USB Disk And File Transfer 1.3.1 Local File Inclusion</title>
+<link>https://packetstormsecurity.com/files/120616/VL-881.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120616/VL-881.txt</guid>
+<comments>https://packetstormsecurity.com/files/120616/USB-Disk-And-File-Transfer-1.3.1-Local-File-Inclusion.html</comments>
+<pubDate>Sat, 02 Mar 2013 23:08:02 GMT</pubDate>
+<description>USB Disk and File Transfer version 1.3.1 suffers from a local file inclusion vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Digital Whisper Electronic Magazine #40</title>
+<link>https://packetstormsecurity.com/files/120615/DigitalWhisper40.pdf</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120615/DigitalWhisper40.pdf</guid>
+<comments>https://packetstormsecurity.com/files/120615/Digital-Whisper-Electronic-Magazine-40.html</comments>
+<pubDate>Sat, 02 Mar 2013 23:05:55 GMT</pubDate>
+<description>Digital Whisper Electronic Magazine issue 40. Written in Hebrew.</description>
+<category></category>
+</item>
+<item>
+<title>GNU Transport Layer Security Library 3.1.9.1</title>
+<link>https://packetstormsecurity.com/files/120614/gnutls-3.1.9.1.tar.xz</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120614/gnutls-3.1.9.1.tar.xz</guid>
+<comments>https://packetstormsecurity.com/files/120614/GNU-Transport-Layer-Security-Library-3.1.9.1.html</comments>
+<pubDate>Sat, 02 Mar 2013 03:19:02 GMT</pubDate>
+<description>GnuTLS is a secure communications library implementing the SSL and TLS protocols and technologies around them. It provides a simple C language application programming interface (API) to access the secure communications protocols, as well as APIs to parse and write X.509, PKCS #12, OpenPGP, and other required structures. It is intended to be portable and efficient with a focus on security and interoperability.</description>
+<category></category>
+</item>
+<item>
+<title>D-Link DSL-2740B Authentication Bypass</title>
+<link>https://packetstormsecurity.com/files/120613/dlinkdsl2740b-bypass.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120613/dlinkdsl2740b-bypass.txt</guid>
+<comments>https://packetstormsecurity.com/files/120613/D-Link-DSL-2740B-Authentication-Bypass.html</comments>
+<pubDate>Sat, 02 Mar 2013 03:15:42 GMT</pubDate>
+<description>D-Link DSL-2740B ADSL router suffers from an administrative authentication bypass vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>i-doit Cross Site Scripting</title>
+<link>https://packetstormsecurity.com/files/120612/CSNC-2013-003.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120612/CSNC-2013-003.txt</guid>
+<comments>https://packetstormsecurity.com/files/120612/i-doit-Cross-Site-Scripting.html</comments>
+<pubDate>Sat, 02 Mar 2013 03:13:58 GMT</pubDate>
+<description>i-doit versions prior to 1.0 Pro and 0.9.9-7 Open suffer from a cross site scripting vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Question2Answer 1.5.3 CSRF / Brute Force</title>
+<link>https://packetstormsecurity.com/files/120610/question2answer-xsrf.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120610/question2answer-xsrf.txt</guid>
+<comments>https://packetstormsecurity.com/files/120610/Question2Answer-1.5.3-CSRF-Brute-Force.html</comments>
+<pubDate>Sat, 02 Mar 2013 03:09:56 GMT</pubDate>
+<description>Question2Answer version 1.5.2 suffers from cross site request forgery, anti-automation, and brute force vulnerabilities.</description>
+<category></category>
+</item>
+<item>
+<title>doorGets CMS Cross Site Request Forgery</title>
+<link>https://packetstormsecurity.com/files/120609/doorgetscms-xsrf.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120609/doorgetscms-xsrf.txt</guid>
+<comments>https://packetstormsecurity.com/files/120609/doorGets-CMS-Cross-Site-Request-Forgery.html</comments>
+<pubDate>Sat, 02 Mar 2013 03:09:03 GMT</pubDate>
+<description>doorGets CMS suffers from a cross site request forgery vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Debian Security Advisory 2636-1</title>
+<link>https://packetstormsecurity.com/files/120604/dsa-2636-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120604/dsa-2636-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/120604/Debian-Security-Advisory-2636-1.html</comments>
+<pubDate>Sat, 02 Mar 2013 02:47:29 GMT</pubDate>
+<description>Debian Linux Security Advisory 2636-1 - Multiple vulnerabilities have been discovered in the Xen hypervisor.</description>
+<category></category>
+</item>
+<item>
+<title>Debian Security Advisory 2635-1</title>
+<link>https://packetstormsecurity.com/files/120603/dsa-2635-1.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120603/dsa-2635-1.txt</guid>
+<comments>https://packetstormsecurity.com/files/120603/Debian-Security-Advisory-2635-1.html</comments>
+<pubDate>Sat, 02 Mar 2013 02:47:19 GMT</pubDate>
+<description>Debian Linux Security Advisory 2635-1 - Malcolm Scott discovered a remote-exploitable buffer overflow in the rfc1413 (ident) client of cfingerd, a configurable finger daemon. This vulnerability was introduced in a previously applied patch to the cfingerd package in 1.4.3-3.</description>
+<category></category>
+</item>
+<item>
+<title>RSA Authentication Agent 7.1.1 Access Bypass</title>
+<link>https://packetstormsecurity.com/files/120606/ESA-2013-012.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120606/ESA-2013-012.txt</guid>
+<comments>https://packetstormsecurity.com/files/120606/RSA-Authentication-Agent-7.1.1-Access-Bypass.html</comments>
+<pubDate>Fri, 01 Mar 2013 22:22:22 GMT</pubDate>
+<description>RSA Authentication Agent version 7.1.1 for Windows suffers from an issue where a user may incorrectly gain access to a desktop or a server.</description>
+<category></category>
+</item>
+<item>
+<title>Post XSS Exploitation: Advanced Attacks And Remedies</title>
+<link>https://packetstormsecurity.com/files/120607/post-xss-exploitation.pdf</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120607/post-xss-exploitation.pdf</guid>
+<comments>https://packetstormsecurity.com/files/120607/Post-XSS-Exploitation-Advanced-Attacks-And-Remedies.html</comments>
+<pubDate>Fri, 01 Mar 2013 20:22:22 GMT</pubDate>
+<description>This paper presents an in depth study of the dangers of XSS vulnerabilities and vulgarizes its exploitation, it also showcases the remedies of post XSS attacks that can be adopted as a safeguard. Further, they exploit a vulnerability and develop a novel module for one of the popular tools of post XSS exploitation. This module can be used to make a SIP (Session Initiation Protocol) call. It has been developed with the intention of being included into the new release of the XSSF framework.</description>
+<category></category>
+</item>
+<item>
+<title>Drupal Premium Responsive 7.x Cross Site Scripting</title>
+<link>https://packetstormsecurity.com/files/120605/DRUPAL-SA-CONTRIB-2013-031.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120605/DRUPAL-SA-CONTRIB-2013-031.txt</guid>
+<comments>https://packetstormsecurity.com/files/120605/Drupal-Premium-Responsive-7.x-Cross-Site-Scripting.html</comments>
+<pubDate>Fri, 01 Mar 2013 19:22:22 GMT</pubDate>
+<description>Drupal Premium Responsive third party theme version 7.x suffers from a cross site scripting vulnerability.</description>
+<category></category>
+</item>
+<item>
+<title>Sami FTP Server 2.0.1 Buffer Overflow</title>
+<link>https://packetstormsecurity.com/files/120608/samiftp-overflow.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120608/samiftp-overflow.txt</guid>
+<comments>https://packetstormsecurity.com/files/120608/Sami-FTP-Server-2.0.1-Buffer-Overflow.html</comments>
+<pubDate>Fri, 01 Mar 2013 12:22:22 GMT</pubDate>
+<description>Sami FTP Server version 2.0.1 LIST command buffer overflow exploit.</description>
+<category></category>
+</item>
+<item>
+<title>Hanso Player 2.1.0 Buffer Overflow</title>
+<link>https://packetstormsecurity.com/files/120611/hansoplayer-overflow.txt</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120611/hansoplayer-overflow.txt</guid>
+<comments>https://packetstormsecurity.com/files/120611/Hanso-Player-2.1.0-Buffer-Overflow.html</comments>
+<pubDate>Fri, 01 Mar 2013 11:11:11 GMT</pubDate>
+<description>Hanso Player version 2.1.0 suffers from a buffer overflow vulnerability when handling malformed .m3u files.</description>
+<category></category>
+</item>
+<item>
+<title>Packet Storm New Exploits For February, 2013</title>
+<link>https://packetstormsecurity.com/files/120602/1302-exploits.tgz</link>
+<guid isPermaLink="true">https://packetstormsecurity.com/files/120602/1302-exploits.tgz</guid>
+<comments>https://packetstormsecurity.com/files/120602/Packet-Storm-New-Exploits-For-February-2013.html</comments>
+<pubDate>Fri, 01 Mar 2013 04:41:25 GMT</pubDate>
+<description>This archive contains all of the 157 exploits added to Packet Storm in February, 2013.</description>
+<category></category>
+</item>
+
+
+</channel>
+</rss>
+
